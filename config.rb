@@ -107,7 +107,7 @@ configure :build do
   }
   config[:uniqleads] = {
      environment: 'production',
-     # dashboardAPI: 'https://dashboard.notifica.re/api',
+     # dashboardAPI: 'https://',
      websiteURL: 'http://notifica.re'
   }
   activate :favicon_maker, :icons => {
