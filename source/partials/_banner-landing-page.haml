@@ -1,0 +1,16 @@
+.container.banner
+	- if block_given? 
+		.content-block
+			=yield
+	- else
+		.content-vspace
+			.row
+				.sm-5
+					%h1=title
+					%p=intro
+				.sm-6.right
+					.placeholder-image.center
+						=image_tag image
+					%h3.center-text=form_text
+					=partial 'signup-form', locals: {button_text: button_text}
+					%p.center-text=form_undertext

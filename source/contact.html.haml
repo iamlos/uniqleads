@@ -1,0 +1,35 @@
+---
+title: Contact us
+---
+.bg-green
+	.container
+		%h1.xs-12.xs-p-2 Contact us
+
+
+.container
+	.row
+		.sm-8
+			%p Need help or have a question? You can always contact us to get you on our platform. Call us on <a href="tel:+1(555)5555555">+1 (555) 555 5555</a> or submit your question:
+			%form.UniqLeads-form{data: {type: 'info', redirect: false}}
+		.sm-4
+			.content-block
+				%h3 Sales inquiries
+				UK:
+				%a{href:"tel:+"} +5555555555
+				%br
+				U:
+				%a{href:"tel:+15127746127"} +5555555555
+				%br Weekdays from 9 am - 9 pm CET
+				%h3 Press
+				%a{href:"#"} uniqleads.com
+				%h3 Visit us
+				UK, SG, AU
+				%iframe{src:"", width:"350", height:"275", frameborder:"0", style:"border:0"}
+				%p
+
+.bg-red
+	.container
+		.content-block.center-text
+			%h2 Get updates. Join our newsletter!
+			%span We will not spam you, promised.
+			=partial 'mailing-form', locals: {button_text: 'Yes, sign me up'}

@@ -1,0 +1,20 @@
+.blog {
+	> .container {
+		margin-top: -4em;
+		}
+	.banner {
+		text-align: left;
+	}
+}
+.blog-summary {
+	text-align: left;
+	background: #fff;
+	h1 {
+		color: cl('green');
+		@include fw(normal);
+	}
+	.split-view__content {
+		margin-top: 2em;	
+		margin-bottom: 2em;	
+	}
+}

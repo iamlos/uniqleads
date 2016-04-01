@@ -1,0 +1,9 @@
+/**
+ * @fileOverview Config for production environment
+ */
+(function(global) {
+    global.Config = {
+        environment: '<%= config[:uniqleads][:environment] %>',
+        dashboardAPI: '<%= config[:uniqleads][:dashboardAPI] %>'
+    }
+}(this));

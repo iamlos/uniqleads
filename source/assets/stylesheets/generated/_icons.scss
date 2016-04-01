@@ -1,0 +1,37 @@
+// Declare icon font
+$icons: (
+	arrow_left: "\f100",
+	arrow_right: "\f101",
+	available: "\f105",
+	facebook: "\f107",
+	linkedin: "\f108",
+	slider_left: "\f103",
+	slider_right: "\f104",
+	triangle_down: "\f10b",
+	triangle_right: "\f10a",
+	twitter: "\f102",
+	unavailable: "\f106",);
+
+%iconfont {
+	  display: inline-block;
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+	speak: none;
+}
+@each $name, $content in $icons {
+	%i-#{$name},
+	.i-#{$name}:before,
+	.i-#{$name}-after:after {
+		@extend %iconfont;
+		content: "#{$content}";
+	}
+}

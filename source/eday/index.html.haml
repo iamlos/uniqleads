@@ -1,0 +1,23 @@
+---
+title: Meet With Us at eDay
+---
+.bg-black
+	.container
+		%h1.xs-12.xs-p-2 Meet With Us at eDay 2015
+
+
+.container
+	.row
+		.sm-6
+			.content-block
+				%img{:alt => "Meet with us at eDay 2015", :src => "/assets/images/eday.png", :style => "width:403px;height:200px;"}
+				%h3 Meet With Us (Booth #13)
+				eDay Amsterdam 2015 is just around the corner. This year we're meeting with companies like yours all week for 1-on-1 consultations on how  marketing fits within your overall strategy. Whether you're looking for specific answers or just getting started, we can help.</br><font color="#27b0a3">Fill out the form to reserve your spot. ↗</font>
+		.sm-6
+			=partial 'salesforce-form', locals: {type: 'eday'}
+
+%section.bg-green
+	=partial 'banner',
+		locals: { image: 'supericons/bg-green/eight.svg',
+				title: '#papernotifications',
+				intro: 'We also have something very special (and a little mysterious) planned for eDay. On Thursday, October 8th, look for our #papernotifications at Kromhouthal to get in on the goods!'}

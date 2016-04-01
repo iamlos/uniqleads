@@ -1,0 +1,42 @@
+.pricing__product.font-md
+	%h3.pricing__header=product.title
+	- if product.price.nil?
+		.pricing__price--custom custom price
+	- else
+		.pricing__price
+			.pricing__price__container
+				- [product.price.first].each do |users, plan|
+					-plan.each do |valuta, price|
+						%div
+							.pricing__valuta #{valuta}
+							- haml_tag_if product.price.size > 1, :output, {for: 'js-userrange', class: 'js-userrange__price'} do
+								#{price}
+			%span.pricing__duration /month
+
+	.pricing__content
+		- if product.price
+			.pricing__users
+				- if product.price.size <= 1
+					%hr	#{format_number(product.price.keys.first)} users
+				- elsif product.price.size > 1
+					- max =
+					%input.js-userrange{type: 'range',
+					name:'js-userrange',
+					min: 1,
+					max: product.price.size,
+					data: {plans: product.price.map { |val| [val[0], val[1].values] },
+						packages: product.packages },
+					value: 1 }
+					%output.js-userrange__users{for: 'js-userrange'}
+						%span.js-userrange__amount #{product.price.keys.first}
+						users
+		- if product.available || product.unavailable
+			.pricing__features
+				%ul.list-reset
+					-[*product.available].each do |available|
+						%li.i-available=available
+					-[*product.unavailable].each do |unavailable|
+						%li.i-unavailable=unavailable
+		- if product.description
+			.pricing__description=product.description
+		%a Choose

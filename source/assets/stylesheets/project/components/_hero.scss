@@ -1,0 +1,32 @@
+.hero {
+	@extend .center-text;
+	@extend .bg-black;
+	
+	padding: 5em 0 10em 0;
+	// background-image: image-url('call-center-gal-1600x700.jpg');
+	// background-repeat: no-repeat;
+	// background: cover;
+	//locals: { image: 'assets/videos/Bigstock_75113635.mp4' };
+	
+	+ section {
+		margin-top: -8em;
+		//background-image: url(#{image_path "assets/videos/Bigstock_75113635.mp4");
+	}
+	.fullscreen-bg {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    overflow: hidden;
+	    z-index: -100;
+	}
+
+	.fullscreen-bg__video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}

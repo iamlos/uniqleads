@@ -1,0 +1,20 @@
+%aside.blog-aside.xs-mt-1
+
+	%h3 Get monthly updates.
+	%span Join our mobile marketing newsletter!
+	%br
+	=partial 'mailing-form', locals: {button_text: 'send'}
+	%br
+	%br
+	%h2.h4 Latest from our blog
+	%ol.list-reset
+		- blog.articles[0...3].each do |article|
+			%li
+				= link_to article.title, article
+				%hr
+	%h2.h4 Tags
+	%ol.list-reset
+		- blog.tags.each do |tag, articles|
+			%li
+				= link_to "#{tag} (#{articles.size})", tag_path(tag)
+				%hr

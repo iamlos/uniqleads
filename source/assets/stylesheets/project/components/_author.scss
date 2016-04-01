@@ -1,0 +1,16 @@
+.author {
+	text-align: left;
+	display: inline-block;
+	&__image {
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: .5em;
+	}
+	&__content {
+		@extend %capitals;
+		text-align: left;
+		color: cl('grey');
+		display: inline-block;
+		vertical-align: middle;
+	}
+}

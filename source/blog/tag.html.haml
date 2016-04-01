@@ -1,0 +1,30 @@
+---
+title: Archive | Blog | UniqLeads
+page_type: blog
+pageable: true
+per_page: 10
+---
+.bg-red
+  .container
+    %h1.xs-12.xs-p-1 Articles tagged ’#{tagname}’
+.bg-grey
+  .container
+    .content-block.center-text
+      %h2 Get updates. Join our newsletter!
+      %span We will not spam you, promised.
+      =partial 'mailing-form', locals: {button_text: 'Yes, sign me up'}
+.container
+
+  .content-vspace
+    - page_articles.each_with_index do |article, i|
+      =partial 'blog-summary', locals: { article: article }
+
+- if paginate
+  .row
+    .container
+      - if prev_page
+        %p.left.no-margin=link_to 'Previous page', prev_page, class:'btn--ghost'
+      - if next_page
+        %p.right.no-margin= link_to 'Next page', next_page, class:'btn--ghost right'
+  .row
+    %p

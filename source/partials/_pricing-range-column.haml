@@ -1,0 +1,49 @@
+.pricing__product.font-md
+	- plan.title.each_with_index do |title, index|
+		- if index > 0
+			%h3.pricing__header.hidden=title
+		- else
+			%h3.pricing__header=title
+	.pricing__price
+		- plan.price.each_with_index do |price, index|
+			- if index > 0
+				.pricing__price__container.hidden
+					- price.each do |valuta, amount|
+						%div
+							.pricing__valuta #{valuta}
+							#{amount}
+			- else
+				.pricing__price__container
+					- price.each do |valuta, amount|
+						%div
+							.pricing__valuta #{valuta}
+							#{amount}
+		%span.pricing__duration /month
+	.pricing__content
+		.pricing__users
+			%input.js-userrange{type: 'range',
+					name:'js-userrange',
+					id: 'js-userrange',
+					min: 0,
+					max: plan.users.size - 1,
+					data: {values: plan.users},
+					value: 0 }
+			%output.js-userrange__users{for: 'js-userrange'}
+				%span #{format_number(plan.users.first)}
+				users
+		- plan.available.each_with_index do |available, index|
+			- if index > 0
+				.pricing__features.hidden
+					%ul.list-reset
+						- available.each do |feature|
+							%li.i-available=feature
+			- else
+				.pricing__features
+					%ul.list-reset
+						- available.each do |feature|
+							%li.i-available=feature
+		- plan.types.each_with_index do |type, index|
+			- if index > 0
+				%a.btn.pricing__selectors.hidden{:href=>"/signup/#{type}"} Try now
+			- else
+				%a.btn.pricing__selectors{:href=>"/signup/#{type}"} Try now

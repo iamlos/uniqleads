@@ -1,0 +1,58 @@
+//Environment dependent debug level
+$debug-level: <%= config[:katoen][:debug] %>;
+
+$gutters: (
+	xs: 1.5rem
+);
+
+//Skip output of certain files alltogether
+$compile: (
+	grid: true,
+	spacing: false,
+	layout: true,
+) !default;
+
+
+//Colors used in SASS
+$colors: (
+	'black'			: #27343A,
+	'black-text'	: #858f94,
+	'white'			: #f9f9f6,
+	
+	'grey'			: #afb5b2,
+	'grey_light'	: #e7e8e2,
+	'grey_dark'		: #64706e,
+	
+	'green'			: #DF4F2A,
+	'green_dark'	: #13D047,
+	
+	'red'			: #DF4F2A,
+	'red_dark'		: #cd1011,
+);
+//Colors used in templates
+$themes: (
+	'green'	: cl('green'),
+	'red'	: cl('red'),
+	'black'	: cl('black'),
+	'black-text' : cl('black-text'),
+	'white'	: #fff,
+);
+//Colored icons,
+$supericons: (
+	email: "supericons/email.svg",
+	password: "supericons/key.svg",
+);
+
+
+$transition: cubic-bezier(0, .5, 1, 1);
+$font-weight: (
+	normal: '"AzoWeb-Light", sans-serif',
+	semibold: '"AzoWeb-Regular", sans-serif',
+	bold: '"AzoWeb-Bold", sans-serif',
+);
+
+
+$font-size-default: 20px;
+
+
+$bounce: cubic-bezier(0.56,0,0,1.3);

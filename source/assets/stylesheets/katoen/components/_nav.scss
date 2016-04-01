@@ -1,0 +1,42 @@
+$patty-width: 30px !default;
+$patty-linewidth: 4px !default;
+$patty-distance: 4px !default;
+$patty-linecolor: #fff !default;
+
+.patty,
+.patty:before,
+.patty:after {
+	transition: all .2s ease;
+	
+	width: $patty-width;
+	height: $patty-linewidth;
+	background-color: $patty-linecolor;
+	display: block;
+}
+.patty {
+	border: none;
+	position: relative;
+	margin: $patty-linewidth + $patty-distance 0;
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0;
+	}
+	&:before {
+		top: $patty-linewidth + $patty-distance;
+	}
+	&:after {
+		bottom: $patty-linewidth + $patty-distance;
+	}
+}
+.is-active {
+	.patty:after,
+	.patty:before {
+		transform-origin: center;
+		
+	}
+	.patty { border-color: transparent;background-color: transparent}
+	.patty:before { transform: rotate(-45deg); top: 0;}
+	.patty:after { transform: rotate(45deg); bottom: 0;}
+}

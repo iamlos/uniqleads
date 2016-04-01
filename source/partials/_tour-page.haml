@@ -1,0 +1,8 @@
+%section.clearfix.tour{class: ('tour--reverse' if defined?(reverse) && reverse)}
+	.tour__static{class: ("bg-#{color}" if defined?(color)) }
+		- if (defined?(image))
+			=image_tag(image)
+	.tour__scroll.row
+		.content-block
+			- if block_given?
+				=yield

@@ -1,0 +1,12 @@
+.container.banner
+	- if block_given? 
+		.content-block
+			=yield
+	- else
+		.content-vspace
+			.row
+				.sm-5
+					%h1=title
+					%p=intro
+				.sm-6.right
+					=image_tag image

@@ -1,0 +1,8 @@
+/ .bg-white
+/ 	%section.content-block.center-text
+/ 		%h2 Trusted by the Best
+/ 		These leading companies are already engaging customers with the right message at the right time.
+/ 		.clients-container
+/ 			- Dir.foreach('source/assets/images/clients/') do |file|
+/ 				- if !File.directory?(file)
+/ 					=image_tag "clients/#{file}"

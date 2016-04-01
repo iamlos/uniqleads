@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="360px" height="368px" viewBox="0 0 360 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="partnership" sketch:type="MSLayerGroup">
+            <g id="styleguide" sketch:type="MSShapeGroup">
+                <g id="big-icon">
+                    <g id="Imported-Layers-Copy-11">
+                        <path d="M192,224 L134,224 L134,248 L192,248 C222.927552,248 248,222.853109 248,192 L248,142 L224,142 L224,192 C223.999571,209.526359 209.643315,223.92639 192,224 L192,224 Z" id="Fill-2" fill="#DF4F2A"></path>
+                        <path d="M24,192 L24,56 C24,38.354 38.356,24 56,24 L192,24 C209.644,24 224,38.354 224,56 L224,122 L248,122 L248,56 C248,25.07 222.928,0 192,0 L56,0 C25.07,0 0,25.07 0,56 L0,192 C0,222.93 25.07,248 56,248 L114,248 L114,224 L56,224 C38.354,224 24,209.644 24,192 L24,192 Z" id="Fill-3" fill="#DF4F2A"></path>
+                        <path d="M226,144 L226,120 L168,120 C137.068448,120 112,145.146891 112,176 L112,226 L136,226 L136,176 C136.000429,158.473641 150.354685,144.07361 168,144 L226,144 L226,144 Z" id="Fill-4" fill="#27B0A3"></path>
+                        <path d="M246,120 L246,144 L304,144 C321.647381,144 336.003613,158.356 336,176 L336,312 C336.003613,329.644 321.647381,344 304,344 L168,344 C150.354619,344 136.000387,329.644 136,312 L136,246 L112,246 L112,312 C112,342.93 137.068404,368 168,368 L304,368 C334.933596,368 360,342.93 360,312 L360,176 C360,145.07 334.933596,120 304,120 L246,120 L246,120 Z" id="Fill-5" fill="#27B0A3"></path>
+                        <rect id="Rectangle-232" fill="#232C2A" x="112" y="224" width="24" height="24"></rect>
+                        <rect id="Rectangle-232-Copy" fill="#232C2A" x="224" y="120" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

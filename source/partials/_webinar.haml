@@ -1,0 +1,11 @@
+=partial 'split-view', locals: {image: image ||= false, className: direction ||= nil } do
+	.xs-11.right
+		- if block_given?
+			=yield
+		- else
+			%h2 Upcoming webinar
+			%p=description
+			%cite
+				-if defined? button
+					.center-text
+						%a.btn.btn-readmore{:href=> button } Save Your Seat

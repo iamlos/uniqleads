@@ -1,0 +1,66 @@
+groups:
+  - title: Online Plans
+    plans:
+      - title: More Push
+        type: more
+        plan: online
+        billed: monthly
+        users: 50000
+        price:
+          €: 299
+          $: 399
+        available:
+          - Rich & Interactive push
+          - Marketing Analytics
+          - Tags & Segments
+          - Website push
+          - API access
+          - iBeacon compatible
+          - 50 Geo-fences
+          - Email support
+        unavailable:
+          - Phone support
+      - title: Force Push
+        type: force
+        plan: online
+        billed: monthly
+        users: 100000
+        price:
+          €: 449
+          $: 599
+        available:
+          - Rich & Interactive push
+          - Marketing Analytics
+          - Tags & Segments
+          - Website push
+          - API access
+          - iBeacon compatible
+          - Unlimited Geo-fences
+          - Email support
+        unavailable:
+          - Phone support
+  - title: Enterprise Plans
+    plans:
+      - title: Enterprise 100
+        description:
+          Most popular
+        billed: yearly
+        users: 100000
+        price:
+          €: 759
+          $: 819
+        available:
+          - Everything in Force Push
+          - Automation Add-On
+          - Service Level Agreement
+          - Tailor Made contract
+          - Product Training
+          - Customer Success Manager
+          - Phone support
+      - title: Enterprise
+        billed: yearly
+        available:
+          - Everything in Enterprise 100
+        description:
+          More than 100.000 users or other specific requirements?
+          We will be happy to hear them and offer you the best package possible.

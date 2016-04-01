@@ -1,0 +1,21 @@
+$zindex-navigation: 1000 !default;
+$zindex-hero: 200 !default;
+$zindex-main: 300 !default;
+$zindex-footer: 100 !default;
+
+//Skip output of certain files alltogether
+$compile: (
+	grid: true,
+	spacing: true,
+	layout: true,
+) !default;
+
+//Determines if it gets compiled to a silent class (%) or a regular one.
+$silent: (
+	grid: false,
+	spacing: false,
+) !default;
+
+//debug level 0 disable all debug information, 
+//debug level > 1 shows breakpoints
+$debug-level: 0 !default;

@@ -1,0 +1,59 @@
+---
+title: Agencies | Solutions
+og_title: Let’s partner up!
+description: Accelerate your development time with our extensive collection of libraries and plugins for all major frameworks. Premium support, brainstorm, code reviews, pitch & concept are some of the benefits of enrolling our Partner Program.
+---
+
+%section.bg-black
+	=partial 'banner',
+		locals: { image: 'supericons/partnership.svg',
+			title: 'Let’s partner up!',
+			intro: 'Accelerate your development time with our extensive collection of libraries and plugins for all major frameworks. Premium support, brainstorm, code reviews, pitch & concept are some of the benefits of enrolling our Partner Program.'}
+
+.bg-green.clearfix
+	.content-block
+		%blockquote
+			%p As a  agency we deliver high quality  platforms that need a reliable and innovative push platform. The UniqLeads platform has a lot to offer, we love the product and what it can do for our clients.
+			%cite
+				%p Sam Y, CEO company
+				-if defined? button
+					.center-text
+						%a.btn.btn-readmore{:href=> button } read case study
+
+.bg-white
+	=partial 'split-view', locals: { image: 'bgimg_partnerup.png' } do
+		%h2 Join the  revolution
+		%p Is your agency already creating user-centric  experiences? How much of your revenue is coming from driving engagement of  users and maximizing your customer's applications? We are here to support agencies like yours to move faster and make more money using technologies like Remote Push Notifications and Location Services.
+		%p We are experts in  development with decades of experience. We work closely with brands and companies to create the ultimate  experience and your agency can be part of it.
+		%p From enterprise level consultants or creative agencies to freelancers, we have solutions for every budget.
+
+.bg-black
+	.container.content-vspace
+		.row
+			.sm-4
+				%h2 Powerful SDK & API
+				%p Being a partner will let you make the most out of our range of developer tools. Extend your capabilities and deliver faster and better work.
+			.sm-4
+				%h2 We think along
+				%p We proactively monitor and analyse your app’s behaviour and warn you when there’s problems. We'll review your code if needed. You can count in our expert advise.
+			.sm-4
+				%h2 World class support
+				%p Our friendly 24/7 email support service is here for you. From Sydney to Los Angeles you can reach our sales & tech teams from any timezone.
+		.row
+			.sm-4
+				%h2 We work together
+				%p We receive considerable amounts of requests for development from companies of all sizes. They can be your clients too.
+
+			.sm-4
+				%h2 Workshops
+				%p From our famous “API to IPA” sessions to dedicated, in-depth workshops, we'll make sure you get everything out of our platform you need for your clients.
+			.sm-4
+				%h2 Early Bird
+				%p As a member of our partner program, you'll have a peek into the future of our platform, as well as beta access to new features.
+
+=partial 'partners'
+
+%section
+	.content-block
+		%h2.center-text Interested? Get in touch!
+		%form.UniqLeads-form{data: {type: 'info', redirect: false}}

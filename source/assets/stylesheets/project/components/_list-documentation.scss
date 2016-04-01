@@ -1,0 +1,26 @@
+.list-documentation {
+	font-size: .9em;
+	
+	li:before {
+		transition: transform .1s ease;
+		transform-origin: center left;
+		font-size: .5em;
+	}
+	ul,
+	ol {
+		color: cl('black');
+		display: none;
+		font-size: .9em;
+	}
+	.is-active {
+		color: cl('green');
+		&:before {
+			transform: rotate(90deg);
+			color: purple;
+		}
+		> ul,
+		> ol {
+			display: block;
+			}
+	}
+}

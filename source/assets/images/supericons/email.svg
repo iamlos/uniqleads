@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="email" sketch:type="MSLayerGroup">
+            <g id="sign-in-and-sign-up" sketch:type="MSShapeGroup">
+                <g id="gui-login">
+                    <g id="start">
+                        <g id="email">
+                            <path d="M27.994,4 L16,11.961 L4.006,4 L4,4 L4,8.798 L16,16.762 L28,8.798 L28,4 L27.994,4" id="Fill-1" fill="#27B0A3"></path>
+                            <path d="M31.899,1.408 C31.644,0.594 30.894,0 29.998,0 L2.002,0 C1.1,0 0.353,0.594 0.1,1.407 C0.041,1.597 0,1.795 0,2.005 L0,21.995 C0,23.103 0.896,24 2.002,24 L29.998,24 C31.111,24 32,23.103 32,21.995 L32,2.005 C32,1.795 31.959,1.598 31.899,1.408 L31.899,1.408 L31.899,1.408 Z M4,4 L28,4 L28,20 L4,20 L4,4 L4,4 Z" id="Fill-2" fill="#DF4F2A"></path>
+                            <path d="M28,4 L28,8.798 L32,6.143 L32,2.005 C32,1.795 31.959,1.598 31.899,1.408 L27.994,4 L28,4" id="Fill-3" fill="#232C2A"></path>
+                            <path d="M4,4 L4.006,4 L0.1,1.407 C0.041,1.597 0,1.795 0,2.005 L0,6.143 L4,8.798 L4,4" id="Fill-4" fill="#232C2A"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

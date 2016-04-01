@@ -1,0 +1,58 @@
+@import url("//hello.myfonts.net/count/2e60f1");
+/**
+ * @license
+ * MyFonts Webfont Build ID 3039473, 2015-06-09T15:26:22-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AzoWeb-Light by Rui Abreu
+ * URL: http://www.myfonts.com/fonts/r-type/azo-sans/light/
+ * 
+ * Webfont: AzoWeb-Bold by Rui Abreu
+ * URL: http://www.myfonts.com/fonts/r-type/azo-sans/bold/
+ * 
+ * Webfont: AzoWeb-Regular by Rui Abreu
+ * URL: http://www.myfonts.com/fonts/r-type/azo-sans/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3039473
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2012 by Rui Abreu, Portugal. All rights reserved.
+ * 
+ * (c) 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+	font-family: 'AzoWeb-Light';
+	src: font-url('/assets/fonts/2E60F1_0_0.eot');
+	src: font-url('/assets/fonts/2E60F1_0_0.eot?#iefix') format('embedded-opentype'),
+			font-url('/assets/fonts/2E60F1_0_0.woff2') format('woff2'),
+			font-url('/assets/fonts/2E60F1_0_0.woff') format('woff'),
+			font-url('/assets/fonts/2E60F1_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+	font-family: 'AzoWeb-Bold';
+	src: font-url('/assets/fonts/2E60F1_1_0.eot');
+	src: font-url('/assets/fonts/2E60F1_1_0.eot?#iefix') format('embedded-opentype'),
+			font-url('/assets/fonts/2E60F1_1_0.woff2') format('woff2'),
+			font-url('/assets/fonts/2E60F1_1_0.woff') format('woff'),
+			font-url('/assets/fonts/2E60F1_1_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+	font-family: 'AzoWeb-Regular';
+	src: font-url('/assets/fonts/2E60F1_2_0.eot');
+	src: font-url('/assets/fonts/2E60F1_2_0.eot?#iefix') format('embedded-opentype'),
+			font-url('/assets/fonts/2E60F1_2_0.woff2') format('woff2'),
+			font-url('/assets/fonts/2E60F1_2_0.woff') format('woff'),
+			font-url('/assets/fonts/2E60F1_2_0.ttf') format('truetype');
+}

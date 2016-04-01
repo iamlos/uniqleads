@@ -1,0 +1,90 @@
+{
+  "checksum": {
+    "previous": "3633fa7a9ad8f6770120c3cd5020d3ff3fac471de20b839a316d24f5f453a3a8",
+    "current": "3633fa7a9ad8f6770120c3cd5020d3ff3fac471de20b839a316d24f5f453a3a8"
+  },
+  "fonts": [
+    "source/assets/fonts/icons.ttf",
+    "source/assets/fonts/icons.svg",
+    "source/assets/fonts/icons.woff",
+    "source/assets/fonts/icons.eot"
+  ],
+  "glyphs": {
+    "arrow_left": {
+      "codepoint": 61696,
+      "source": "icons/arrow_left.svg"
+    },
+    "arrow_right": {
+      "codepoint": 61697,
+      "source": "icons/arrow_right.svg"
+    },
+    "available": {
+      "codepoint": 61701,
+      "source": "icons/available.svg"
+    },
+    "facebook": {
+      "codepoint": 61703,
+      "source": "icons/facebook.svg"
+    },
+    "linkedin": {
+      "codepoint": 61704,
+      "source": "icons/linkedin.svg"
+    },
+    "slider_left": {
+      "codepoint": 61699,
+      "source": "icons/slider_left.svg"
+    },
+    "slider_right": {
+      "codepoint": 61700,
+      "source": "icons/slider_right.svg"
+    },
+    "triangle_down": {
+      "codepoint": 61707,
+      "source": "icons/triangle_down.svg"
+    },
+    "triangle_right": {
+      "codepoint": 61706,
+      "source": "icons/triangle_right.svg"
+    },
+    "twitter": {
+      "codepoint": 61698,
+      "source": "icons/twitter.svg"
+    },
+    "unavailable": {
+      "codepoint": 61702,
+      "source": "icons/unavailable.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "icons",
+    "force": false,
+    "input": {
+      "templates": "icons",
+      "vectors": "icons"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "source/assets/stylesheets/generated",
+      "fonts": "source/assets/fonts",
+      "preview": "source/assets/fonts"
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "templates": [
+      "_icons.scss",
+      "_files.scss"
+    ]
+  },
+  "templates": [
+    "source/assets/stylesheets/generated/_icons.scss",
+    "source/assets/stylesheets/generated/_files.scss"
+  ]
+}

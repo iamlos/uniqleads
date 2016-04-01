@@ -1,0 +1,19 @@
+@function fw($weight) {
+	@return map-get($font-weight, $weight);
+}
+
+@mixin fw($weight) {
+	@extend %font;
+	font-family: unquote(map-get($font-weight, $weight));
+}
+
+%font {
+	font-weight: normal;
+	font-style: normal;
+}
+
+@each $key, $value in $font-weight {
+	%font-#{$key} {
+		font-family: unquote($value);
+	}
+}

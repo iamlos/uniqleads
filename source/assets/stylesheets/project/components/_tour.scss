@@ -1,0 +1,125 @@
+.tour {
+	// .container {padding: 0;}
+	&__static {
+		padding: 1em 0;
+		text-align: center;
+	}
+	&__scroll {
+		margin: 1em auto;
+	}
+}
+@include bp('md+') {
+	.tour {
+		position: relative;
+		&__static,
+		&__scroll {
+			width: 50%;
+		}
+		&--reverse {
+			.tour__static {
+				left: 0;
+				right: auto;
+			}
+			.tour__scroll {
+				float: right;
+			}
+		}
+		&__static {
+			position: fixed;
+			z-index: 1;
+			top: 3em; //menu height
+			bottom: 0;
+			right: 0;
+			//animation
+			transition: transform 1s cubic-bezier(0, 1, 1, 1);
+			transform: translateY(100%);
+			
+			img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateY(-50%) translateX(-50%);
+			}
+		}
+		&__scroll {
+			clear: both;
+			min-height: 100vh;
+			text-align: left;
+			margin-left: 0;
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			box-sizing: border-box;
+			
+			p { margin-top: 0;}
+			p.smaller { margin-top: 0;font-size: .9em;}
+		  	p.title {
+			  color: cl('green');
+			}
+			h2 span {
+			  color: cl('red');
+			}
+			h3 { color: cl('grey'); font-size: .9em; }
+
+		  	.placeholder{
+			  min-height: 70px;
+			  .tour-image {
+				max-width: 50px;
+				max-height: 70px;
+			  }
+			}
+		}
+		&.is-entered {
+			.tour__static {
+				transform: translateY(0);
+			}
+			&:first-child .tour__static { transition-duration: 0s;}
+		}
+		&.has-entered {
+			.tour__static {
+				transform: translateY(-100%);
+			}
+		}
+	}
+}
+// .tours {
+// 	position: absolute;
+// 	top: 3em;bottom: 0;
+// 	z-index: $zindex-navigation - 1;
+// 	overflow: hidden;
+// 	overflow-y: scroll;
+// 	section {
+// 		height: 100%;
+// 		clear: both;
+// 		position: relative;
+		
+// 		//Overrides the default 50%
+// 		div:first-child { left: 0; }
+// 	}
+// 	&__static,
+// 	&__scroll {
+// 		position: absolute;
+// 		width: 50%;
+// 		top: 0;
+// 		bottom: 0;
+// 		left: 50%;
+// 	}
+// 	&__scroll {
+// 		// overflow-y: scroll;
+// 	}
+
+// }
+// // .tours {
+// // 	position: absolute;
+// // 	top: 0;bottom: 0;
+// // 	section {
+// // 		height: 100%;
+// // 	}
+// // }
+
+// body, html,
+// .tours {
+// 	width: 100%; 
+// 	height: 100%; 
+// 	// overflow: hidden;
+// }

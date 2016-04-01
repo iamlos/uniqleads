@@ -1,0 +1,64 @@
+---
+title: Our proposition
+---
+.bg-green
+	=partial 'banner' do
+		%h1 Our proposition
+
+	/ = partial 'split-view', locals: {:src => "/assets/images/georgy-kurian.png"} do
+	/ 	%h1=article.title
+
+.container
+	.content-container
+		%br	
+		%h2 Carpet bombing lead generation is no longer feasible
+		%p Heightened SPAM compliance regimes around the world poses a unique challenge to companies running email marketing campaigns for lead generation. Once you have made the decision to target new prospects outside your existing customer or marketing lists, who have not double opted­in to your marketing campaigns, you need to run highly targeted email campaigns or risk being running foul of SPAM laws or damage your company’s brand.
+
+		%p Many companies aren’t prepared to take this risk but some, usually SMEs, have too in order to win new business.
+		%p If you have made the decision to reach new prospects outside your existing database, you need to ensure that those email addresses are accurate and who you’re targeting is in your target market.
+		%br	
+.bg-grey
+	=partial 'split-svgs-view', locals: { image: 'supericons/bg-red/map.svg' } do
+		%h2 Our proposition
+		%br
+		=link_to 'view a 15-min demo', '/demo', class: 'nav-item btn--ghost'
+
+.container
+	.content-container
+		%br
+		%p We specialise in researching high quality contact and company information within niche B2B target markets in a cost­effective and timely manner.
+
+		%p We also provide high quality back office support services for marketing teams who rely upon accurate data on a daily basis to do their job.
+		%p We have the capability to provide telesales services but lead generation is what we’re best at and besides...
+		%strong Who do you want closing your sales opportunities ­a 3rd party or your own staff?
+
+		%p Buying pre­made generic email lists are too broad to make a meaningful impact. is not a feasible long­term solution, each company needs to make a decision on its own SPAM compliance requirements.
+
+		%p Our senior management team consists of an internationally experienced team and we guarantee the following for all clients or we don’t take them on.
+
+		%p We want to be right there, with you, dreaming up a storm.
+		%h3 Executive Team
+		/ .row
+		/ 	.sm-4
+		/ 		%br
+		/ 		%img{:alt => "Georgy Kurian", :src => "/assets/images/georgy-kurian.png"}/
+		/ 		%center Executive
+		/ 		%center <a href="https://nl.linkedin.com/in/" target="_blank">Georgy Kurian</a>
+		/ 	/ .sm-4
+		/ 	/ 	%br
+		/ 	/ 	%img{:alt => "Joel S", :src => "/assets/images/georgy-kurian.png"}/
+		/ 	/ 	%center CPO
+		/ 	/ 	%center <a href="https://nl.linkedin.com/in/" target="_blank">Joel S</a>
+		/ 	/ .sm-4
+		/ 	/ 	%br
+		/ 	/ 	%img{:alt => "Joe Shmoe", :src => "/assets/images/georgy-kurian.png"}/
+		/ 	/ 	%center CTO
+		/ 	/ 	%center <a href="https://nl.linkedin.com/in/" target="_blank">Joe Shmoe</a>
+		%br
+		%br
+.bg-red
+	.container
+		.content-block.center-text
+			%h2 Get updates. Join our newsletter!
+			%span We will not spam you, that's a promise.
+			=partial 'mailing-form', locals: {button_text: 'Yes, sign me up'}

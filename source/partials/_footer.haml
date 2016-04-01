@@ -1,0 +1,28 @@
+%footer.bg-black
+	.content-vspace
+		.container
+			%nav.nav-meta
+				%span Solutions for:
+				=link_to '', '/solutions/retail/', class: 'nav-item'
+				=link_to 'partners', '/solutions/agencies/', class: 'nav-item'
+
+			%nav.nav-meta
+				/ =link_to 'documentation', 'http://docs.uniqleads.com/', class: 'nav-item'
+				/ =link_to 'support', 'http://support.uniqleads.com/', class: 'nav-item'
+				=link_to 'Industries', '/resources', class: 'nav-item'
+				=link_to 'Services', '/blog/', class: 'nav-item'
+				=link_to 'features', '/features/', class: 'nav-item'
+				%br
+				=link_to 'Our Proposition', '/about/', class: 'nav-item'
+
+				=link_to 'we’re hiring!', '/careers/',class: 'nav-item'
+				=link_to 'contact us', '/contact/', class: 'nav-item'
+				=link_to 'products', '/products/', class: 'nav-item'
+				/ .socials.center
+				/ 	%a.i-twitter{href:'http://twitter.com/uniqleads'}
+			.font-xs
+				© 2016 UniqLeads
+				%nav.nav-footer
+					=link_to 'terms &amp; conditions','/terms/'
+					=link_to 'privacy policy','/privacy/'
+					=link_to 'cookie policy','/cookies/'

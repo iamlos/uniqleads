@@ -1,0 +1,5 @@
+=partial 'split-view', locals: { image: "blog/#{article.data['image']}", className: 'blog-summary' } do
+	%article
+		%h1= link_to article.title, article
+		= article.summary
+		= link_to 'read article', article, class: 'btn--txt'

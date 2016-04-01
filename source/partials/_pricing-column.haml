@@ -1,0 +1,30 @@
+.pricing__product.font-md
+	%h3.pricing__header=plan.title
+	- if plan.price
+		.pricing__price
+			.pricing__price__container
+				- plan.price.each do |currency, amount|
+					%div
+						.pricing__valuta #{currency}
+						#{amount}
+			%span.pricing__duration /month
+	- else
+		.pricing__price--custom custom price
+	.pricing__content
+		- if plan.users
+			.pricing__users
+				%hr
+				#{format_number(plan.users)} users
+		- if plan.available || plan.unavailable
+			.pricing__features
+				%ul.list-reset
+					-[*plan.available].each do |available|
+						%li.i-available=available
+					-[*plan.unavailable].each do |unavailable|
+						%li.i-unavailable=unavailable
+		- if plan.description
+			.pricing__description=plan.description
+		- if plan.plan
+			%a.btn{:href=>"/signup/#{plan.type}"} Try 30 days
+		- else
+			%a.btn{:href=>"/contact"} Contact Sales

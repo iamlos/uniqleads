@@ -1,0 +1,140 @@
+
+.pricing-form {
+	label {
+		@extend %capitals;
+		margin-left: 1em;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+	input {
+		padding: 0;
+		margin-right: 1em;
+	}
+}
+.pricing {
+	&__header {
+		@extend %capitals;
+		font-size: 1em;
+		margin: 0;
+		padding: .9em 0;
+		color: #fff;
+		background: cl('green_dark');
+		&.light{
+			background: cl('green');
+		}
+		+ .xs-6 {
+			border-right: 1px solid cl('grey_light');
+		}
+
+		.btn-change{
+			@extend %basicbtn;
+			@extend %basicanim;
+			background-color: cl('green_dark');
+			border: none;
+			color: #fff;
+			box-sizing: border-box;
+			width: 20%;
+			margin-top: -1px;
+			right: 12px;
+			padding: 0.4em;
+			border-radius: 6px;
+		}
+	}
+	&__price {
+		margin: .5em auto;
+		font-size: 2.2em;
+		display: block;
+		text-align: center;
+		overflow: hidden;
+		height: 1em;
+		position: relative;
+		
+		&__container {
+			transition: transform .5s $bounce;
+			display: inline-block;
+			transform: translateY(0);
+			div { 
+				line-height: 1.09em;
+				display: block;
+			}
+		}
+	}
+	&__valuta {
+		vertical-align: top;
+	}
+	&__price--custom {
+		@extend .pricing__price;
+		overflow: visible;
+		height: auto;
+	}
+	&__duration {
+		position: absolute;
+		bottom: 0;
+	}
+	&__content {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	&__description,
+	&__users {
+		text-align: left;
+		width: 100%;
+	}
+	// 	color: cl("black");
+	// }
+	&__description,
+	&__features {
+		border-bottom: 1px solid cl('grey_light');
+		text-align: left;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		color: cl("black");
+	}
+	&__features {
+		ul { margin: 0;}
+		li {
+			&:before { margin-right: .5em;}
+			margin-top: 1em;
+		}
+	}
+	&__users {
+		input {
+			font-size: 1em;
+			margin-top: 0;
+			margin-bottom: 1em
+		}
+		hr { margin-top: 1.9em; margin-bottom: 1em;}
+		input { padding: 0;}
+	}
+	//Currency and duration are small
+	&__valuta,
+	&__duration { font-size: .4em;display: inline-block !important; }
+	
+	button,a.btn {
+		width: 100%;
+		margin: 2em auto;
+	}
+}
+.pricing__product {
+	background-color: cl('white');
+	color: cl('green');
+	width: 100%;
+	.pricing__header {
+		background: cl('green');
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+//Flexbox stuff
+.pricing-table .sm-6,
+.pricing-table .lg-6 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.pricing__header {
+	width: 100%;
+}

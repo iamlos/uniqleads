@@ -1,0 +1,13 @@
+@import "katoen/functions/cl"; //I'm using the color function to get some variables
+@import "project/variables";
+@import "vendor/normalize";
+@import "vendor/slick";
+@import "katoen"; //Imports the framework
+
+@import "generated/icons";
+@import "project/base/typography"; //Typography should be able to be overwritten by layout
+@import "project/base/layout";
+@import "project/base/**";
+@import "project/components/**";
+@import "katoen/components/nav";
+@import "katoen/components/media";

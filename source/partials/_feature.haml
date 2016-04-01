@@ -1,0 +1,5 @@
+%section.feature.xs-p-1
+	=image_tag "supericons/bg-white/#{icon}.svg", class: 'sm-4'
+	.sm-8
+		- if block_given?
+			=yield

@@ -1,0 +1,86 @@
+groups:
+  - title: Basic Plans
+    plans:
+      - title: Rich Push
+        type: rich
+        users: 5000
+        price:
+          €: 19
+          $: 29
+        available:
+          - Unlimited apps
+          - Unlimited notifications
+          - API access
+          - Community support
+          - 1GB storage
+        unavailable:
+          - Regions
+          - HTML5 Websockets
+      - title: Geo Push
+        type: geo
+        users: 5000
+        price:
+          €: 59
+          $: 79
+        available:
+          - Unlimited apps
+          - Unlimited notifications
+          - API access
+          - Community support
+          - 10 regions
+          - 2GB storage
+        unavailable:
+          - HTML5 Websockets
+  - title: Premium Plans
+    plans:
+      - title:
+          - Start Push
+          - More Push
+          - Force Push
+        types:
+          - start
+          - more
+          - force
+        users:
+          - 10000
+          - 50000
+          - 100000
+        price:
+          -
+            €: 149
+            $: 199
+          -
+            €: 299
+            $: 399
+          -
+            €: 449
+            $: 599
+        available:
+          -
+            - Unlimited apps
+            - Unlimited notifications
+            - API access
+            - 24/7 Email support
+            - 20 regions
+            - 20 websockets
+            - 5GB storage
+          -
+            - Unlimited apps
+            - Unlimited notifications
+            - API access
+            - 24/7 Email support
+            - 50 regions
+            - 100 websockets
+            - 20GB storage
+          -
+            - Unlimited apps
+            - Unlimited notifications
+            - API access
+            - 24/7 Email support
+            - Unlimited regions
+            - 500 websockets
+            - 50GB storage
+      - title: Enterprise Push
+        description: 
+          More than 100.000 users or other specific requirements?
+          We will be happy to hear them and offer you the best

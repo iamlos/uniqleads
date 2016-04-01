@@ -1,0 +1,70 @@
+---
+title:  Marketing Platform | Products | Main Suite
+og_title:  Marketing Platform UniqLeads
+description: Gather insights on user’s behaviour, location and demographics. Reach out and interact with highly engaging  marketing campaigns.
+---
+
+.bg-black
+  =partial 'split-view', locals: { image: 'product-mmp.jpg' } do
+    %h1 Your  Marketing Platform
+    %p Our main suite delivers all the features you need to give your apps and websites a voice.
+
+.bg-green
+  .content-block.center-text
+    %h3 Gather insights on user’s behaviour, location and demographics. Reach out and interact with highly engaging  marketing campaigns.
+
+.bg-grey
+  .content-block.center-text
+    %h2 All Features of Our Main Suite:
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-green/map-pin.svg' } do
+    %h2 Location services
+    %p Add location intelligence to your notifications and start delivering your messages when they're most relevant.<br><br>Automate messages based on users entering, leaving or even staying at a certain location. <font color="#27b0a3">Got iBeacons?</font color> Excellent. Let's put them to good use. We support them all.
+
+.bg-grey
+  =partial 'split-view', locals: { image: 'message-composer-easy.png' } do
+    %h2 Message Composer
+    %p Creating and sending push notifications has never been so easy!<br><br>Whether that’s a regular message, survey, questionnaire, image, custom HTML, website URL or even a map. Think of your notifications as a blank canvas.
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-white/data-dashboard-small.svg' } do
+    %h2 Cross-platform push
+    %p Bring the power of smarter notifications to your customer’s desk, pocket or wrist. Reach out and interact with your audience regardless of what they are using: desktop, smartphone, Apple or Android Wear watch or even a connected car using CarPlay or Android Auto.
+
+
+.bg-black
+  .content-block.center-text
+    %h2 Ready to get started?
+    Drive more value to your  apps.
+    %br
+    =partial 'signup-form', locals: {button_text: 'Start my free trial'}
+
+
+.bg-gray
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-white/crowd.svg' } do
+    %h2 Audience
+    %p Get a clear view of who your users are. Segment and tag them by interests, preferences, demographics and behaviours. Create custom tailored campaigns.
+
+.bg-grey
+  =partial 'split-svgs-view', locals: {  image: 'supericons/bg-white/data-analytics-small.svg' } do
+    %h2 Analytics
+    %p Our dashboard gives you access to all data points gathered by your app. How many app users opt-in for notifications? How much app usage are my notifications driving? User growth? App usage details? Get all the data you need to make informed decisions.
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-white/analytics-small.svg' } do
+    %h2 Unlimited apps and notifications
+    %p That’s right. Manage as many apps as you’d like, all under one hood. Push as many messages as you need without extra charges.
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { image: 'supericons/bg-white/API-small.svg' } do
+    %h2 API access
+    %p All you need to connect and implement our platform in your  app or website. Learn from our guides, step-by-step instructions, code examples and API blueprint.
+
+%section.bg-grey
+  .content-block.center-text
+    %h2 Try UniqLeads today!
+    Start delivering the right message at the right time.
+    %br
+    =partial 'signup-form', locals: {button_text: 'Start my free trial'}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="37px" viewBox="-70 -150 310 515" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title> with box</title>
+    <desc></desc>
+    <defs></defs>
+    <g id="features" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="documentation" sketch:type="MSArtboardGroup" transform="translate(-412.000000, -1491.000000)">
+            <g id="feature-1-copy-3" sketch:type="MSLayerGroup" transform="translate(335.000000, 1481.000000)">
+                <g id="-with-box" transform="translate(77.000000, 10.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-89" fill="#F9F9F6" x="7.5" y="12" width="109.5" height="180"></rect>
+                    <path d="M111,168 L111,177 L123,177 L123,25.5 L122.959023,25.5 C122.180517,11.2875081 110.406667,0 96,0 L96,12 C104.271,12 111,18.729 111,27 L111,27 L111,156 L12,156 L12,27 L0,27 L0,177.495003 L0.00444813773,177.495003 C0.268503119,192.176669 12.255352,204 27,204 L27,192 C18.729,192 12,185.271 12,177 L12,177 L12,168 L111,168 L111,168 Z M0,27 L12,27 C12,18.729 18.729,12 27,12 L27,0 C12.09,0 0,12.09 0,27 Z M123,177 L111,177 C111,185.271 104.271,192 96,192 L96,204 C110.91,204 123,191.91 123,177 Z M27,0 L96,0 L96,12 L27,12 L27,0 Z M27,192 L96,192 L96,204 L27,204 L27,192 Z M61.5,186 C64.8137085,186 67.5,183.313708 67.5,180 C67.5,176.686292 64.8137085,174 61.5,174 C58.1862915,174 55.5,176.686292 55.5,180 C55.5,183.313708 58.1862915,186 61.5,186 Z" id="Rectangle-17" fill="#27B0A3"></path>
+                    <path d="M97,61 L61,41 L25,61 L25,61 L25,115 L61,135 L97,115 L97,61 L97,61 L97,61 Z M61,55 L84,68 L78,71 L55,58 L61,55 L61,55 Z M43,65 L67,78 L62,81 L38,68 L43,65 L43,65 Z M37,81 L37,81 L55,91 L55,117 L37,107 L37,81 L37,81 Z M85,81 L85,108 L67,118 L67,91 L67,91 L85,81 L85,81 L85,81 Z" id="Imported-Layers-Copy-8" fill="#E54142"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

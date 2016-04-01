@@ -1,0 +1,23 @@
+.login_container {
+	padding: 0;
+	
+	@include bp('sm+') {
+		margin: auto;
+		
+		form {
+			padding-left: 4.5em;//Offset for absolute positioned images
+		}
+		label {
+			position: relative;
+		}
+		.si-email,
+		.si-password {
+			&:before {
+				font-size: 1rem;
+				position: absolute;
+				left: -2.5em;
+				top:50%;
+			}
+		}
+	}
+}

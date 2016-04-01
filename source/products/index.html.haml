@@ -1,0 +1,39 @@
+---
+title: Products
+---
+.bg-green
+	.content-block
+		%h1 Which one of our products is right for your business?
+
+.container
+	.content-block
+		=partial 'feature', locals: { icon: 'screens'} do
+			%h1 Main Suite
+			%p All the features you need to give your apps and websites a voice.
+			=link_to 'learn more', '/products/-marketing-platform', class: 'btn--ghost'
+
+		=partial 'feature', locals: { icon: 'card-and-ticket'} do
+			%h1 Loyalty Add-On
+			%p Say goodbye to paper coupons and plastic loyalty cards.
+			=link_to 'learn more', '/products/loyalty', class: 'btn--ghost'
+
+		=partial 'feature', locals: { icon: 'map'} do
+			%h1 Live API Add-On
+			%p Real time events logged into your systems right as it happens.
+			=link_to 'learn more', '/products/live-api', class: 'btn--ghost'
+
+		=partial 'feature', locals: { icon: 'rss-feed-menu'} do
+			%h1 Automation Add-On
+			%p Increase productivity by automating how you send push notification campaigns.
+			=link_to 'learn more', '/products/automation', class: 'btn--ghost'
+
+		=partial 'feature', locals: { icon: 'microphone'} do
+			%h1 Monetize Add-On
+			%p Sell in-app virtual goods via the Apple App Store and Google Play.
+			=link_to 'learn more', '/products/monetize', class: 'btn--ghost'
+
+
+		=partial 'feature', locals: { icon: '-with-box'} do
+			%h1 Loyalty App
+			%p Looking to digitalize your loyalty program but still don't have an app?
+			=link_to 'learn more', '/products/loyalty-app', class: 'btn--ghost'

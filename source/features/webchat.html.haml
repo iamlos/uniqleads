@@ -1,0 +1,46 @@
+---
+title: Platform | Features
+og_title: Rock-solid platform that connects your business
+description: Automate how you send notifications, categorize your audience or gather insights. React to your app or website events in real time.
+---
+
+%section.bg-green
+  =partial 'banner',
+    locals: { image: 'supericons/bg-green/cogs.svg',
+    title: 'Rock-solid platform that connects your business',
+    intro: 'Automate how you send notifications, categorize your audience or gather insights. React to your app or website events in real time.'}
+
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { image: 'supericons/bg-white/computer.svg' } do
+    %h2 Extend your products with powerful technologies
+    %p Take your existing CRM or CMS solution and turn it into a marketing platform. Quickly tap into technologies like Remote Push Notifications, Passbook, Geo-fences or iBeacons without having to make huge investments in development or infrastructure. Scale whenever you need downgrade whenever you don’t.
+
+.bg-red
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-white/API.svg' } do
+    %h2 Resourceful and well documented API
+    %p Find all you need to connect and implement our platform in your  app or website. Learn from our guides, step-by-step instructions, code examples or API blueprint. We are also always available for any questions your technical team might have.
+
+.bg-black
+  .content-block.center-text
+    %h2 Ready to try UniqLeads?
+    Start sending smarter push notifications today.
+    %br
+    =link_to 'watch a 15-min demo', '/demo', class: 'nav-item btn'
+
+
+.bg-green
+  =partial 'split-svgs-view', locals: {  image: 'supericons/bg-green/real-time-events.svg' } do
+    %h2 React in real time to your app’s events
+    %p Use our APIs to collect information about your users in real time. Trigger your own business intelligence whenever users use your app, receive and reply to notifications or enter one of your monitored regions. Made for serious businesses that need the most out of their applications.
+.bg-black
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-black/lock.svg' } do
+    %h2 Built with privacy and security in mind
+    %p We make sure we oblige to the best practices and independent audits and follow all the requirements for information security certifications. We take this issue seriously and you can rest assure that we go to great lengths to make sure your data is only accessible by your organization.
+
+%section
+  .content-block.center-text
+    %h2 So get started right now!
+    Tap into a new world of contextual and smart notifications.
+    %br Try it free for 30 days. No credit card needed.
+    =link_to 'view a 15-min demo', '/demo', class: 'nav-item btn'

@@ -1,0 +1,44 @@
+.split-view__content {
+	@include clearfix;
+	// max-width: 23em;
+	margin: 1em 0;
+	@include bp('md+') {
+		margin: 6em 0;
+	}
+	// margin-left: 2em;
+	text-align: left;
+}
+.split-view__image {
+	background: {
+		size: cover;
+		position: 50%;
+		repeat: no-repeat;
+	}
+	// min-height: 10rem; //Fallback for non-flexbox stuff
+	
+}
+.split-view {
+	position: relative;
+	.btn-readmore{
+	  @extend %basicbtn;
+	  @extend %basicanim;
+	  background-color: cl('green');
+	  border: 1px solid #fff;
+	  color: #fff;
+	  box-sizing: border-box;
+	  margin-top: 30px;
+	}
+}
+.split-view__image {
+	position: absolute;
+	top: 0;bottom: 0;
+	right:0;//Size gets set by the layout classes (xs-1 and md-6)
+}
+.split-view--reverse {
+	.split-view__image {
+		left: 0;
+		+ div {
+			float: right;
+		}
+	}
+}

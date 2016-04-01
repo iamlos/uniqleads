@@ -1,0 +1,99 @@
+//How many columns there should be
+$columns: 12 !default;
+
+//Overrides the gutter width on a certain breakpoint
+$gutters: (
+	xs: 30px
+) !default;
+
+//Smallest gutter, forced default
+$gutter: nth(nth($gutters,1),2);
+
+//All the breakpoints. Em's have a preference because of zooming
+//Default is linear scaling. No specific device results in better 
+//forward compatibiliy
+$breakpoints: (
+	xs: 18.75em, //300px
+	sm: 31.25em, //500px
+	md: 43.75em, //700px
+	lg: 56.25em, //900px
+	xl: 75em     //1200px
+) !default;
+
+//Default container width. Reccomendation is a percentage
+$container-width: 100% !default;
+
+//Define max-widths for your container per breakpoint only neccesary for xl most of the time
+$container-maxwidth: (
+	xl: em(1200px)
+) !default;
+
+@if map-get($compile, grid) {
+// *******************************************************************************
+// * COLUMNS
+// *******************************************************************************
+//Column with padding and box-sizing
+%column {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: {
+		left: $gutter * .5;
+		right: $gutter * .5;
+	}	
+	float: left;
+	width: 100%;
+}
+
+@each $key, $value in $breakpoints {
+	$prefix: if(map-get($silent, grid), '%', '.');
+	
+	@include bp($value) {
+		body:after {
+			content: "#{$key}";
+		}
+		// Check if the container width for this breakpoint is defined
+		// if so, set the max-width on the container for this breakpoint
+		@if(map-has-key($container-maxwidth, #{$key})) {
+			.container {
+				max-width: map-get($container-maxwidth, #{$key});
+			}
+		};
+		//Check if the gutters for this breakpoint are defined, if so; adjust
+		//them accordingly
+		@if(map-has-key($gutters, #{$key})) {
+			$selector: '';
+			//We build the selector string like this because if we were to extend a block,
+			//the media query is broken and the code would essentially double
+			@each $bp, $width in $breakpoints {
+				@for $i from 1 through $columns {
+					$selector: "#{$selector} #{$prefix}#{$bp}-#{$i},";
+				}
+			}
+			.container,
+			#{$selector} {
+				padding: {
+					left: map-get($gutters, #{$key}) * .5;
+					right: map-get($gutters, #{$key}) * .5;
+				}
+			}
+			.row {
+				margin: {
+					left: map-get($gutters, #{$key}) * -.5;
+					right: map-get($gutters, #{$key}) * -.5;
+				}
+			}
+		}
+
+		@for $i from 1 through $columns {
+			#{$prefix}#{$key}-#{$i} { width: percentage($i / $columns); }
+		}
+		//Seperate loop for grouping of properties and selectors.
+		@for $i from 1 through $columns {
+			#{$prefix}#{$key}-#{$i} {
+				//Shared properties
+				@at-root (without: media) { @extend %column; }
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,87 @@
+!!!
+%html{lang: 'en'}
+	%head
+		=partial 'head'
+
+		
+	%body
+		=partial'navigation-landing-page'
+
+		%main{class: page_classes}
+			= yield
+		
+		=partial 'footer-landing-page'
+
+
+		%script{src: "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+		%script
+			window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+
+		%script{src: "//cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.9/ua-parser.min.js"}
+		=javascript_include_tag :all
+
+		:javascript
+
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-xxxxxx-1', 'auto');
+			ga('send', 'pageview');
+
+			goog_snippet_vars = function() {
+				var w = window;
+				w.google_conversion_id = ;
+				w.google_conversion_label = " ";
+				w.google_remarketing_only = false;
+			};
+			goog_report_conversion = function(url) {
+				goog_snippet_vars();
+				window.google_conversion_format = "3";
+				window.google_is_call = true;
+				var opt = {};
+				opt.onload_callback = function() {
+					if (typeof(url) != 'undefined') {
+						window.location = url;
+					}
+				};
+				var conv_handler = window['google_trackConversion'];
+				if (typeof(conv_handler) == 'function') {
+					conv_handler(opt);
+				}
+			};
+			if(typeof Storage !== "undefined") {
+				if(!localStorage.getItem("currency")){
+					localStorage.setItem("currency", 'EUR' );
+				}
+			};
+			adroll_adv_id = "M3KSDYQB2NFORDL6X7KAZ2";
+			adroll_pix_id = "FLIUQLLJPZDV3KZ76CSXZX";
+			(function () {
+				var oldonload = window.onload;
+				window.onload = function(){
+					__adroll_loaded=true;
+					var scr = document.createElement("script");
+					var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+					scr.setAttribute('async', 'true');
+					scr.type = "text/javascript";
+					scr.src = host + "/j/roundtrip.js";
+					((document.getElementsByTagName('head') || [null])[0] ||
+					document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+					if(oldonload){oldonload()}
+				};
+			}());
+			if(typeof Storage !== "undefined") {
+				if(!localStorage.getItem("currency")){
+					localStorage.setItem("currency", 'EUR' );
+				}
+			}
+
+		:javascript
+
+			window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience.","dismiss":"Got it!","learnMore":"More info.","link":"/cookies/","theme":"dark-bottom"};
+
+		%script{src: "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"}
+
+		%script{src: "//www.googleadservices.com/pagead/conversion_async.js"}

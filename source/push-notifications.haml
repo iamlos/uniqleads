@@ -1,0 +1,37 @@
+---
+title: Push Notifications
+layout: landing-pages
+og_title: Moments Of Delight. One Push At A Time.
+description: Hold the key to increased app engagement and user retention with the UniqLeads  marketing platform.
+---
+
+%section.bg-black
+	=partial 'banner-landing-page',
+		locals: { image: 'supericons/bg-black/screens.svg',
+				form_text: 'Tap into the world of smart notifications',
+				button_text: 'Start your free trial',
+				form_undertext: 'No credit card required',
+				title: 'Moments Of Delight. One Push At A Time.',
+				intro: 'Hold the key to increased app engagement and user retention with the UniqLeads  marketing platform.'}
+
+.bg-grey
+	=partial 'split-svgs-view', locals: { image: 'supericons/bg-white/rich-interactive.svg' } do
+		%h2 Picture engaging your audience with interactive contextual notifications.
+		%ul
+			%li Trigger messages based on location and frequency with geofencing and iBeacons.
+		%ul
+			%li A simple message, a fully designed HTML page, a special offer or an elaborate map. Think of your notifications as a blank canvas.
+		%ul
+			%li Collect user behaviour and responses. Learn from every push. Improve with every campaign.
+		%ul
+			%li Our powerful SDK for iOS, Android and Web will have push notification service up and running for you today.
+
+
+=partial 'clients'
+
+%section
+	.content-block.center-text
+		%h2 So get started right now!
+		Unleash the power of smarter push notifications
+		%br Try UniqLeads free for 30 days
+		=partial 'signup-form', locals: {button_text: 'Start your free trial'}

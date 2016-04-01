@@ -1,0 +1,158 @@
+---
+title: Tour
+layout: tour
+---
+.js-hijacker
+	=partial 'tour-page', locals: { color: 'green', image: 'supericons/bg-green/map.svg'} do
+		%h2{id:"step1"}
+			UniqLeads
+			%span.normal
+				is personal
+		%p.title
+			Imagine you could use location and activity data to discover your audience and build a relationship.
+			%em
+				That’s UniqLeads.
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/time.svg', class:'tour-image'
+				%h3 Push at the right place, at the right time.
+
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/segmentation.svg', class:'tour-image'
+				%h3 Trigger campaigns based on location, time or segmentation
+
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/map-pin.svg', class:'tour-image'
+				%h3 Increase engagement with geofencing and iBeacons
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/user-location.svg', class:'tour-image'
+				%h3 Transform customer experience with contextual messaging
+
+		.center-text
+			%a.btn.next-step-tour{href:"#step2"} see next
+
+
+	=partial 'tour-page', locals: { color: 'red', image: 'supericons/bg-red/screens.svg' } do
+
+		%h2{id:"step2"}
+			UniqLeads
+			%span.normal
+				is engaging
+
+		%p.title
+			Picture engaging your audience with smarter two-way and cross-platform notifications.
+			%em
+				That’s UniqLeads.
+
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/rich-interactive.svg', class:'tour-image'
+				%h3 Send rich, actionable, and interactive notifications to iOS, Android and Web apps
+
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/conversation.svg', class:'tour-image'
+				%h3 Offers, discounts, questionnaires, surveys, or even a private conversation
+
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/canvas.svg', class:'tour-image'
+				%h3 Text, HTML, a map, or whatever you need. Think of your notifications as a blank canvas
+
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/watch.svg', class:'tour-image'
+				%h3 Desk, pocket or wrist. Reserve a place in your customers most personal devices
+
+		.center-text
+			%a.btn.next-step-tour{href:"#step3"} see next
+
+
+	=partial 'tour-page', locals: { color: 'green', image: 'supericons/bg-green/data-dashboard.svg' } do
+		%h2{id:"step3"}
+			UniqLeads
+			%span.normal
+				is insightful
+
+		%p.title
+			What if all your hard decisions were data-driven.
+			%em
+				That’s UniqLeads.
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/puzzle-game.svg', class:'tour-image'
+				%h3 Stop the guessing game. Learn from your results, improve with every push
+
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/data-analytics.svg', class:'tour-image'
+				%h3 Easily understand your audience landscape with data visualization and custom segments
+
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/target.svg', class:'tour-image'
+				%h3 With all our plans, collect any metric you find important for your business
+
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/lock.svg', class:'tour-image'
+				%h3 Safety first. We go great lengths to ensure your data is only accessible by your organization
+
+		.center-text
+			%a.btn.next-step-tour{href:"#step4"} see next
+
+	=partial 'tour-page', locals: {color: 'red', image: 'supericons/bg-red/flag.svg'} do
+		%h2{id:"step4"}
+			UniqLeads
+			%span.normal
+				is ready
+
+		%p.title
+			Imagine you could do more, faster.
+			%em
+				That’s UniqLeads.
+
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/lift.svg', class:'tour-image'
+				%h3 We take care of the heavy lifting. Our SDK will have you up and running today.
+
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/phones.svg', class:'tour-image'
+				%h3 Native iOS, Android, Phonegap, Cordova, Xamarin, Titanium. We’ve got you covered
+
+		.row
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/world.svg', class:'tour-image'
+				%h3 Passbooks, Geofencing and iBeacons with little investment in development or infrastructure
+
+			.sm-6.center-text
+				.placeholder
+					=image_tag 'supericons/bg-white/API.svg', class:'tour-image'
+				%h3 Resourceful and well documented API to empower your business
+		.center-text
+			%a.btn.next-step-tour{href:"#step5"} see next
+
+
+	=partial 'tour-page', locals: {color: 'black', image: 'supericons/bg-black/phone.svg'} do
+		%h2{id:"step5"}
+			UniqLeads
+			%span.normal
+				is here
+
+		%p.title
+			Get started
+		%p Try for 30 days, upgrade, downgrade, cancel at any time. No credit card required.
+		=partial 'signup-form', locals: {button_text: 'Start your free trial'}

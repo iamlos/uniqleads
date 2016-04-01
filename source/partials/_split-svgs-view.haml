@@ -1,0 +1,7 @@
+.split-view{class: className ||= nil}
+	.container
+		.row
+			.xs-1.md-6.no-padding.split-view__image{style: ("background-image: url('#{image_url(image)}');background-size: 500px;" if image)}
+			.xs-11.md-6
+				- if block_given?
+					.split-view__content=yield

@@ -1,0 +1,34 @@
+---
+title: Geofencing
+layout: landing-pages
+og_title: Increase Conversions with Geofencing
+description: Transform customer experience with contextual messaging from the UniqLeads  marketing platform.
+---
+
+%section.bg-black
+	=partial 'banner-landing-page',
+		locals: { image: 'supericons/bg-white/map.svg',
+				form_text: 'Try the most comprehensive solution for geofencing notifications',
+				button_text: 'Start your free trial',
+				form_undertext: 'No credit card required',
+				title: 'Increase Conversions with Geofencing',
+				intro: 'Transform customer experience with contextual messaging from the UniqLeads  marketing platform.'}
+
+.bg-grey
+	=partial 'split-svgs-view', locals: { image: 'supericons/bg-white/map-pin.svg' } do
+		%h2 Imagine using location and activity data to discover your audience and build a relationship.
+		%ul
+			%li Push at the right place, at the right time.
+		%ul
+			%li Trigger campaigns based on location, time or segmentation. Go broad with geofencing (reach a city or an area in a city) or as specific as you need with iBeacon technology.
+		%ul
+			%li Our location services can gather enormous amounts of data in just 24 hours. Reach your audience when you're most needed.
+
+=partial 'clients'
+
+%section
+	.content-block.center-text
+		%h2 So get started right now!
+		Unleash the power of geofencing notifications
+		%br Try UniqLeads free for 30 days
+		=partial 'signup-form', locals: {button_text: 'Start your free trial'}

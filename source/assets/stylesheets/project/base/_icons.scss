@@ -1,0 +1,27 @@
+.i-available:before {color: cl('green');}
+.i-unavailable:before {color: cl('grey');}
+
+
+%supericons {
+	content: '';
+	display: inline-block;
+	line-height: 1;
+	speak: none;
+	background: no-repeat 50%;
+	background-size: contain;
+}
+@each $name, $content in $supericons {
+	%si-#{$name},
+	.si-#{$name}:before {
+		@extend %supericons;
+		background-image: image-url("#{$content}");
+	}
+}
+.si-email:before {
+	width: 2em;
+	height: 1.5em;
+}
+.si-password:before {
+	width: 2em;
+	height: 1em;
+}

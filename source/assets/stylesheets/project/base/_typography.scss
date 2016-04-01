@@ -1,0 +1,110 @@
+html {
+	font-size: em($font-size-default, 16px);
+}
+body {
+	line-height: 1.4;
+	@include fw(normal);
+}
+p + p {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+	+ p {
+		margin-top: .5rem;
+	}
+	@include fw(bold);
+}
+h1, .h1 {
+	font-size: 2.3em;
+}
+h2, .h2 {
+	font-size: 1.6em;
+	// color: cl('grey');
+	margin-bottom: 0;
+	// @include fw(normal);
+	
+	+ p {
+		margin-top: 0;
+	}
+}
+h3, .h3 {
+	font-size: 1.3em;
+	@include fw(semibold);	
+}
+
+span.normal {
+	@include fw(normal);
+}
+
+a {
+	transition: color .2s ease;
+	color: cl('green');
+	text-decoration: none;
+	@include hover {
+		color: cl('green_dark');
+	}
+}
+
+blockquote {
+	margin-left: 0;
+	margin-right: 0;
+	&:before {
+		$width: 60px;
+		$height: 59px;
+		width: $width;
+		height: $height;
+		margin-bottom: $height * .5;
+		content: '';
+		display: block;
+		margin: .5em auto;
+		background-image: image-url('quote.svg');
+
+		.split-view__content & { margin-left: 0; }
+		.bg-green 	& { background-position: $width * 1 0; }
+		.bg-red 	& { background-position: $width * 2 0; }
+	}
+	cite {
+		display: block;
+		font: {
+			variant: small-caps;
+			style: normal;
+			size: .8em;
+			weight: fw(semibold);
+		}
+		text-transform: lowercase;
+		color: cl('black-text');
+
+	}
+}
+
+%capitals {
+	text: {
+		align: center;
+		decoration: none;
+		transform: uppercase;
+	}
+	letter-spacing: 2px;
+	font-size: .6em;
+	// font-variant: small-caps;
+}
+.font-xs { font-size: .6em; }
+.font-sm { font-size: .75em; }
+.font-md { font-size: .8em; }
+.font-lg { font-size:  1.5em; }
+.font-xl { font-size:  2em; }
+
+.blog h1 {
+	font-size: em(48px);
+	@include fw(normal);
+}
+.hero h1 {
+	font-color: black-text;
+}

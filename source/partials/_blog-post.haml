@@ -1,0 +1,12 @@
+%article
+	.bg-red
+		= partial 'split-view', locals: {image: "blog/#{article.data['image']}", reverse: true } do
+			%h1=article.title
+	.container
+		.sm-8.blog-post
+			.left=partial 'author', locals: { author: data.authors[article.data["author"]], date: article.date }
+			.right=partial 'socials', locals: {title: article.title, url: fully_qualified_url(article.url)}
+			.clear-both=article.body
+
+		.sm-4=partial 'blog-aside', locals: {blog: blog}
+

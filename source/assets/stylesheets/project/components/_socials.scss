@@ -1,0 +1,15 @@
+.socials {
+	a {
+		margin-top: 1em;
+	}
+}
+.socials {
+	font-size: 2em;
+	a { 
+		text-decoration: none;
+		color: cl('white'); 
+		&:before {
+			vertical-align: middle;
+		}
+	}
+}

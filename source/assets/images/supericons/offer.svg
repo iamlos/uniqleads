@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="82px" height="137px" viewBox="0 0 82 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="offer" sketch:type="MSLayerGroup">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="offer">
+                    <path d="M41,124.891 C43.209,124.891 45,123.1 45,120.891 C45,118.682 43.209,116.891 41,116.891 C38.791,116.891 37,118.682 37,120.891 C37,123.1 38.791,124.891 41,124.891" id="Fill-1" fill="#DF4F2A"></path>
+                    <path d="M64,0.89 L18,0.89 C8.06,0.89 0,8.95 0,18.89 L0,119.221 L0.003,119.221 C0.179,129.008 8.17,136.891 18,136.891 L64,136.891 C73.94,136.891 82,128.83 82,118.891 L82,17.89 L81.973,17.89 C81.453,8.416 73.605,0.89 64,0.89 L64,0.89 L64,0.89 Z M74,118.891 C74,124.404 69.514,128.891 64,128.891 L18,128.891 C12.486,128.891 8,124.404 8,118.891 L8,112.891 L74,112.891 L74,118.891 L74,118.891 Z M74,104.891 L8,104.891 L8,18.89 C8,13.376 12.486,8.89 18,8.89 L64,8.89 C69.514,8.89 74,13.376 74,18.89 L74,104.891 L74,104.891 Z" id="Fill-2" fill="#DF4F2A"></path>
+                    <path d="M64.851,44.251 L41.001,31 L17.15,44.251 L17,44.168 L17,80.165 L41,93.499 L65,80.165 L65,44.168 L64.851,44.251 L64.851,44.251 Z M41.001,40.151 L56.614,48.827 L52.885,50.898 L37.221,42.252 L41.001,40.151 L41.001,40.151 Z M28.97,46.835 L44.634,55.481 L41,57.501 L25.386,48.826 L28.97,46.835 L28.97,46.835 Z M25,57.815 L25,57.763 L36.838,64.34 L36.838,82.035 L25,75.458 L25,57.815 L25,57.815 Z M57,57.815 L57,75.458 L44.838,82.216 L44.838,64.52 L44.885,64.494 L57,57.763 L57,57.815 L57,57.815 Z" id="Imported-Layers" fill="#27B0A3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

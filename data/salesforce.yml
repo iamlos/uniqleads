@@ -1,0 +1,159 @@
+action: 'https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8'
+oid: 
+forms:
+  demo_request:
+    button_text: Request Demo
+    campaign_id: 
+    return_url: /demo/thank-you
+    fields:
+      - name: first_name
+        label: First name
+        type: text
+        maxlength: 80
+        size: 20
+        required: yes
+      - name: last_name
+        label: Last name
+        type: text
+        maxlength: 80
+        size: 20
+        required: yes
+      - name: email
+        label: Work email
+        type: text
+        maxlength: 80
+        size: 20
+        required: yes
+      - name: phone
+        label: Phone
+        type: text
+        maxlength: 40
+        size: 20
+        required: no
+      - name: company
+        label: Company
+        type: text
+        maxlength: 40
+        size: 20
+        required: yes
+      - name: country
+        label: Country
+        type: country
+        required: yes
+      - name: UTM_Source
+        type: hidden
+        maxlength: 200
+        size: 20
+        required: no
+      - name: UTM_Medium
+        type: hidden
+        maxlength: 200
+        size: 20
+        required: no
+      - name: UTM_Campaign
+        type: hidden
+        maxlength: 200
+        size: 20
+        required: no
+  eday:
+    button_text: Reserve Spot
+    campaign_id: 701240000009Yyb
+    return_url: /eday/thank-you
+    fields:
+      - name: first_name
+        label: First name
+        type: text
+        maxlength: 80
+        size: 20
+        required: yes
+      - name: last_name
+        label: Last name
+        type: text
+        maxlength: 80
+        size: 20
+        required: yes
+      - name: email
+        label: Email
+        type: text
+        maxlength: 80
+        size: 20
+        required: yes
+      - name: phone
+        label: Phone
+        type: text
+        maxlength: 40
+        size: 20
+        required: no
+      - name: UTM_Source
+        type: hidden
+        maxlength: 200
+        size: 20
+        required: no
+      - name: UTM_Medium
+        type: hidden
+        maxlength: 200
+        size: 20
+        required: no
+      - name: UTM_Campaign
+        type: hidden
+        maxlength: 200
+        size: 20
+        required: no
+  webinar-moments:
+      button_text: Watch the webinar now
+      campaign_id: 701240000009aiI
+      return_url: /webinars/engaging-app-users-with--moments/thank-you
+      fields:
+        - name: first_name
+          label: First name
+          type: text
+          maxlength: 80
+          size: 20
+          required: yes
+        - name: last_name
+          label: Last name
+          type: text
+          maxlength: 80
+          size: 20
+          required: yes
+        - name: email
+          label: Email
+          type: text
+          maxlength: 80
+          size: 20
+          required: yes
+        - name: phone
+          label: Phone
+          type: text
+          maxlength: 40
+          size: 20
+          required: no
+  webinar-retail:
+        button_text: Watch the webinar now
+        campaign_id: 70124000000ZdBL
+        return_url: /webinars/-marketing--retail/thank-you
+        fields:
+          - name: first_name
+            label: First name
+            type: text
+            maxlength: 80
+            size: 20
+            required: yes
+          - name: last_name
+            label: Last name
+            type: text
+            maxlength: 80
+            size: 20
+            required: yes
+          - name: email
+            label: Email
+            type: text
+            maxlength: 80
+            size: 20
+            required: yes
+          - name: phone
+            label: Phone
+            type: text
+            maxlength: 40
+            size: 20
+            required: no

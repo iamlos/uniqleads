@@ -1,0 +1,41 @@
+---
+title: Analytics | Features
+og_title:  Marketing Analytics
+description: Powerful insights that help you make smarter decisions. Measure your success and improve your application performance.
+---
+
+%section.bg-red
+  =partial 'banner',
+    locals: { image: 'supericons/bg-red/data-dashboard.svg',
+    title: ' Marketing Analytics',
+    intro: 'Powerful insights that help you make smarter decisions. Measure your success and improve your application performance.'}
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { image: 'supericons/statistics.svg' } do
+    %h2 Measure how your app performs
+    %p Get all you need to collect your app’s most important indicators and visualize how it performs. How big is your audience? When do they use your app? How is it fragmented? We make sure this kind of information is accessible at all times and for all our plans.
+
+.bg-red
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-red/data-analytics.svg' } do
+    %h2 Track and visualize your own KPIs
+    %p Add your own events and quickly visualize how they perform or compare with our rich collection of charts. Create your own weekly email digest based on all the data you care about in your app or website.
+
+.bg-black
+  .content-block.center-text
+    %h2 Ready to try UniqLeads?
+    Start sending smarter push notifications today.
+    %br
+    =link_to 'book a 15-min demo', '/demo', class: 'nav-item btn'
+
+
+.bg-green
+  =partial 'split-svgs-view', locals: {  image: 'supericons/bg-green/analytics_turquoise.svg' } do
+    %h2 Make informed decisions based on your data
+    %p Adjust your strategy based on the metrics that matter or measure how changes affect your app’s performance. We make sure your data is safe and that you can access it whenever you need it. Data-driven decisions that ultimately make your business better.
+
+%section
+  .content-block.center-text
+    %h2 So get started right now!
+    Tap into a new world of contextual and smart notifications.
+    %br Try it free for 30 days. No credit card needed.
+    =link_to 'view a 15-min demo', '/demo', class: 'nav-item btn'

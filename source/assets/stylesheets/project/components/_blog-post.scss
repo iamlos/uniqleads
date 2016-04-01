@@ -1,0 +1,19 @@
+.blog-post {
+	background: #fff;
+	text-align: left;
+	margin-top: -3em;
+	position: relative;
+	padding-top: 2em;
+	margin-left: 0;
+	&:before {
+		content: '';
+		display: block;
+		width: 56px;
+		height: 56px;
+		background-image: image-url('blog-post_overlay.svg');
+		position: absolute;
+		left: 6em;
+		top: -1.3em;
+		mix-blend-mode: multiply;
+	}
+}

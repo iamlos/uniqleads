@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="224px" height="129px" viewBox="0 0 224 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>laptop 2</title>
+    <desc></desc>
+    <defs>
+        <path d="M45,111 L45,116 L37,116 L37,110.890106 C28.0009733,109.894998 21,102.26399 21,93 L29,93 C29,98.514 33.486,103 39,103 L39,104 L39,103 L181,103 L181,104 L181,103 C186.514,103 191,98.514 191,93 L199,93 C199,102.26399 191.999027,109.894998 183,110.890106 L183,116 L175,116 L175,111 L45,111 L45,111 Z M0,121 C0,123.209139 1.78701101,125 4.00631338,125 L215.993687,125 C218.206312,125 220,123.204644 220,121 C220,118.790861 218.212989,117 215.993687,117 L4.00631338,117 C1.7936876,117 0,118.795356 0,121 L0,121 Z M199,18 L191,18 C191,12.486 186.514,8 181,8 L181,0 C190.94,0 199,8.06 199,18 L199,18 Z M21,18 L29,18 C29,12.486 33.486,8 39,8 L39,0 C29.06,0 21,8.06 21,18 L21,18 Z M21,18 L29,18 L29,93 L21,93 L21,18 L21,18 Z M191,18 L199,18 L199,93 L191,93 L191,18 L191,18 Z M39,0 L181,0 L181,8 L39,8 L39,0 L39,0 Z" id="path-1"></path>
+    </defs>
+    <g id="styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-6" sketch:type="MSArtboardGroup" transform="translate(-585.000000, -3171.000000)">
+            <g id="location-copy" sketch:type="MSLayerGroup" transform="translate(285.000000, 3083.000000)">
+                <g id="laptop-2" transform="translate(302.000000, 90.000000)">
+                    <rect id="Rectangle-100" fill="#FFFFFF" sketch:type="MSShapeGroup" x="27" y="5" width="166" height="100.5"></rect>
+                    <g id="Rectangle-12-Copy-2">
+                        <use stroke="none" fill="#232C2A" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                        <use stroke="#232C2A" stroke-width="4" fill="none" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M90,80.138721 L90,52.138721 L109.553321,33 L131,52.138721 L131,80.138721" id="Path-182" stroke="#27B0A3" stroke-width="12" sketch:type="MSShapeGroup"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

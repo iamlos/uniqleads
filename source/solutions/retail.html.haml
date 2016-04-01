@@ -1,0 +1,53 @@
+---
+title: Retail & E-commerce | Solutions
+og_title: Retail & E-commerce
+description: With UniqLeads you can do more with your audience. Activate them on proximity, gain loyalty and create smart omni-channel campaigns.
+---
+
+%section.bg-red
+	=partial 'banner', 
+		locals: { image: 'retail.svg',
+				title: 'Retail & E-commerce',
+				intro: 'With UniqLeads you can do more with your audience. Activate them on proximity, gain loyalty and create smart omni-channel campaigns.'}
+
+.bg-grey
+	.content-block.center-text
+		%h2 Contextual messages that maximize foot-traffic
+		With consumers gone , retailers have the opportunity to engage and collect valuable customer information using technologies like geo-fencing or iBeacons in their existing  apps.
+
+.bg-white
+	=partial 'split-view', locals: { image: 'bgimg_retail.jpg' } do
+		%h2 Do you have an edge?
+		%p With consumers in a constant state of information overload, attention spams are only getting shorter. Standing out in the market space is a real challenge.
+		%p The answer is relevancy and one-to-one experiences. UniqLeads allows retailers to easily segment consumers based on behavioural data to gain real competitive advantage.
+
+.bg-grey
+	.container.content-vspace.center-text.solutions
+		%h2 Every superhero needs a sidekick
+		Use valuable insights collected by your apps to create omni-channel campaign strategies.
+		%br That’s notifications and email working together to create enhanced customer experiences.
+		.row
+			.sm-3
+				.placeholder
+					=image_tag "supericons/bg-black/laptop.svg"
+				%h3 Bridge the gap between your  audience and your website visitors
+			.sm-3
+				.placeholder
+					=image_tag "supericons/bg-black/map.svg"
+				%h3 Transform your customer's location into valuable information
+			.sm-3
+				.placeholder
+					=image_tag "supericons/offer.svg"
+				%h3 Run loyalty and rewards programs that maximize your revenue
+			.sm-3
+				.placeholder
+					=image_tag "supericons/bg-white/analytics.svg"
+				%h3 Data-driven decisions based on on your app and website most important KPIs
+
+%section.bg-red
+	.content-block.center-text
+		%h2 So get started right now!
+		Tap into a new world of contextual and smart notifications.
+		%br Try it free for 30 days. No credit card needed.
+		=partial 'signup-form', locals: {button_text: 'Start my free trial'}
+

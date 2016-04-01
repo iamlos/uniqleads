@@ -1,0 +1,12 @@
+.blog-aside {
+	.h4 {
+		color: cl('black');
+		font-size: .9em;
+		@include fw(semibold);
+	}
+	a {
+		color: cl('grey');
+		font-size: .8em;
+		@include fw(semibold);
+	}
+}

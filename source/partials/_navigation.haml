@@ -1,0 +1,15 @@
+%nav.nav-main
+	%button.js-menu.xs-hide
+		.patty
+	.container
+		.logo.left
+			=link_to '/' do
+				=image_tag 'ul-logo.svg'
+		
+		.nav-main__container.right
+			=link_to 'our proposition', '/about', class: 'nav-item'
+			=link_to 'services', '/about', class: 'nav-item'
+			=link_to 'industries', '/about', class: 'nav-item'
+			=link_to 'products', '/products', class: 'nav-item'
+			/ =link_to 'call now', '#', class: 'nav-item btn--ghost'
+			=link_to 'schedule demo', '/about', class: 'nav-item btn--ghost'

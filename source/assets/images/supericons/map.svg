@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="328px" height="275px" viewBox="0 0 328 275" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>map copy 2</title>
+    <desc></desc>
+    <defs>
+        <ellipse id="path-1" cx="35.8905775" cy="35.8706383" rx="35.8905775" ry="35.8706383"></ellipse>
+    </defs>
+    <g id="tour" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-907.000000, -399.000000)" id="map-copy-2">
+            <g sketch:type="MSLayerGroup" transform="translate(907.000000, 399.000000)">
+                <path d="M22.225773,25.6987029 L21.9331307,219.292069 L91.4154237,256.531591 L223.914865,215.927352 L308.06079,253.108932 L305.73766,51.5279822 L230.303473,16.5688534 L96.8585711,53.6924932 L22.225773,25.6987029 Z" id="Path-86" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M82,52.0794444 L106,52.0794444 L106,254.079444 L82,254.079444 L82,52.0794444 Z" id="Fill-2" fill="#27B0A3" sketch:type="MSShapeGroup"></path>
+                <path d="M224.316109,16.9425059 L248.316109,16.9425059 L248.316109,218.942506 L224.316109,218.942506 L224.316109,16.9425059 Z" id="Fill-3" fill="#27B0A3" sketch:type="MSShapeGroup"></path>
+                <g id="pointer" transform="translate(128.607903, 95.658629)">
+                    <rect id="Rectangle-25-Copy" fill="#27B0A3" sketch:type="MSShapeGroup" x="23.9270517" y="47.8275177" width="23.9270517" height="49.820331" rx="12"></rect>
+                    <g id="Oval-1-+-Rectangle-25">
+                        <mask id="mask-2" sketch:name="Mask" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#E54142" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-25" fill="#232C2A" sketch:type="MSShapeGroup" mask="url(#mask-2)" x="23.9270517" y="30.8886052" width="23.9270517" height="49.820331" rx="12"></rect>
+                        <ellipse id="Oval-2" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="35.8905775" cy="35.8706383" rx="11.9635258" ry="11.9568794"></ellipse>
+                    </g>
+                </g>
+                <path d="M304,263.422686 L304,47.904899 L316.898416,69.1055606 L224.898416,21.2801061 L243.589466,22.7650494 L99.5894664,70.590504 L89.9277243,73.7993735 L80.8984158,69.1055606 L0,27.0511746 L1.77635684e-15,14.5749691 L12.8984158,6.78458141 L24,12.55565 L24,233.228535 L9.76942657,211.38661 L101.769427,252.237519 L85.4278669,251.080767 L229.427867,210.229858 L237.809428,207.852119 L245.769427,211.38661 L328,247.899585 L328,258.556344 L313.769427,267.76062 L304,263.422686 L304,263.422686 Z M92,47.904899 L236,0.0794444444 L328,47.904899 L328,274.079444 L236,233.228535 L92,274.079444 L0,233.228535 L0,0.0794444444 L92,47.904899 L92,47.904899 Z" id="Shape" fill="#232C2A" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,59 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: cl('white');
+}
+svg {
+	overflow: visible !important;
+}
+img { max-width: 100%; }
+hr {
+	height: 1px;
+	border: none;
+	background-color: cl("grey_light");
+}
+//USED FOR INPUTS AND BUTTONS
+%interactive_elem {
+	border-radius: 3rem;
+	border: none;
+	padding: .45rem 1.5rem;
+	line-height: 1rem;
+}
+
+// HELPERS
+@each $color, $hex in $themes {
+	.bg-#{$color} {
+		background-color: nth($hex, 1);
+	}
+}
+.bg-red,
+.bg-green,
+.bg-black { color: cl('white'); }
+
+.equalheight {
+	display: flex;
+	flex-wrap: wrap;
+	&.row:after,
+	&.row:before { display: block; }
+	&.reverse {
+		flex-flow: row-reverse;
+	}
+}
+.content-container {
+	@extend .container;
+	max-width: 38.5rem;
+}
+
+.content-vspace {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	> * + * {
+		margin-top: 3rem;
+	}
+}
+
+.content-block {
+	@extend .content-container;
+	@extend .content-vspace;
+}

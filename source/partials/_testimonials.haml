@@ -1,0 +1,30 @@
+- if !defined?(slides)
+	%p No slides defined
+- else
+	- text = ''
+	- images = ''
+	- client = ''
+	- slides.each do |slide|
+		- ( images ||= "" ) << capture_html do
+			%div=variable_image slide[:image]
+		- ( client ||= "" ) << capture_haml do
+			%div
+				:markdown
+					#{slide[:client]}
+		- ( text ||= "" ) << capture_haml do
+			%div
+				:markdown
+					#{slide[:text]}
+	%section.xs-p-1
+		.container
+			.content-container.js-slider-testimonials.slider
+				.slider__images
+					=images
+				.slider__text
+					=text
+				- if block_given?
+					=yield
+				.slider__client
+					=client
+				- if block_given?
+					=yield

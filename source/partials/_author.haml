@@ -1,0 +1,7 @@
+.author.clearfix
+	=image_tag "avatars/#{author.avatar}", class: 'circle author__image'
+	.author__content
+		by #{author.name} 
+		%div=date.strftime('%b %e, %y')
+		- if block_given?
+			=yield

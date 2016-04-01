@@ -1,0 +1,25 @@
+- if current_page.data.og_title
+    %meta{prefix: 'og: http://ogp.me/ns#', property:'og:title', content: "#{current_page.data.og_title}" }
+    %meta{name: 'twitter:title', content: "#{current_page.data.og_title}"}
+- else
+    %meta{prefix: 'og: http://ogp.me/ns#', property:'og:title', content: "#{current_page.data.title}" }
+    %meta{name: 'twitter:title', content: "#{current_page.data.title}"}
+%meta{property:'og:url', content: fully_qualified_url(current_page.url)}
+%meta{name: 'twitter:url', content: fully_qualified_url(current_page.url) }
+- if current_page.data.page_type
+    %meta{prefix: 'og: http://ogp.me/ns#', property:'og:type', content: "#{current_page.data.page_type}"}
+- else
+    %meta{prefix: 'og: http://ogp.me/ns#', property:'og:type', content: 'website'}
+- if current_page.data.image
+    - if current_page.data.page_type == 'blog'
+        %meta{prefix: 'og: http://ogp.me/ns#', property:'og:image', content: fully_qualified_url(image_url("blog/#{current_page.data.image}")) }
+        %meta{name: 'twitter:image:src', content: fully_qualified_url(image_url("blog/#{current_page.data.image}")) }
+    - else
+        %meta{prefix: 'og: http://ogp.me/ns#', property:'og:image', content: fully_qualified_url(image_url(current_page.data.image)) }
+        %meta{name: 'twitter:image:src', content: fully_qualified_url(image_url(current_page.data.image)) }
+%meta{name: 'twitter:card', content: 'summary'}
+%meta{name: 'twitter:site', content: '@UniqLeads'}
+%meta{name: 'twitter:creator', content: '@UniqLeads'}
+- if current_page.data.description
+    %meta{prefix: 'og: http://ogp.me/ns#', property: 'og:description', content: "#{current_page.data.description}"}
+    %meta{name: 'twitter:description', content: "#{current_page.data.description}"}

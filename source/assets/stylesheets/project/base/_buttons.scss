@@ -1,0 +1,223 @@
+%basicbtn {
+	@extend %interactive_elem;
+	@extend %capitals;
+	display: inline-block;
+	box-sizing: border-box;
+	
+	@include fw(semibold);
+}
+%basicanim {
+	//Radial out animation	
+	position: relative;
+	overflow: hidden;
+	transform: translateZ(0);
+	transition: background-color .2s ease;
+	// &:before {
+	// 	content: '';
+	// 	transition: transform .5s $bounce;
+	// 	transform-origin: bottom center;
+	// 	transform: scaleY(0);
+	// 	background: cl('red');
+	// 	// border-radius: 100%;
+	// 	position: absolute;
+	// 	z-index: -1;
+	// 	left: 0;right: 0;
+	// 	top: 0;bottom: 0;
+	// 	border-radius: r
+	// }
+	@include hover {
+		outline: none;
+		color: cl('white');
+		background-color: cl('green_dark');
+		// &:before {
+		// 	transform: scaleY(1);
+		// }
+	}
+}
+%btnreset {
+	padding: 0;
+	font-variant: normal;
+	padding-left: 0;
+	padding-right: 0;
+}
+button,
+.btn {
+	@extend %basicbtn;
+	@extend %basicanim;
+	color: cl('white');
+	background-color: cl('green');
+}
+.btn--ghost {
+	@extend %basicbtn;
+	@extend %basicanim;
+	border: 1px solid cl('green');
+	color: cl('green');
+	box-sizing: border-box;
+	@include hover {
+		// background-color: transparent;
+		// border-color: cl('green_dark');
+	}
+	.bg-black & {
+		border-color: cl('grey_dark');
+		color: cl('white');
+	}
+}
+//Old, link-style button with static underline
+// .btn--txt {
+// 	@extend %basicbtn;
+// 	color: cl('green');
+// 	padding: 0;
+	
+// 	&:after { @extend %i-arrow_right !optional; }
+
+// 	&:before {
+// 		content: '';
+// 		background: cl('green');
+// 		height: 1px;
+// 		width: 100%;
+// 		width: calc(100% - 1em);
+// 		transform: scaleX(0) translateY(1.5em);
+// 		transform-origin: left;
+// 		transition: transform .2s ease;
+// 		display: block;
+// 	}
+// 	&:focus,
+// 	&:hover {
+// 		&:before {
+// 			transform: scaleX(1) translateY(1.5em);
+// 		}
+// 	}
+// }
+
+////////////////////////////////////////
+//
+// SVG 
+//
+////////////////////////////////////////
+// MARKUP:
+//
+// CSS ONLY BUTTON
+a.btn--txt, .btn--txt a {
+	@extend %basicbtn;
+	color: cl('green'); 
+	&:after { 
+		@extend %i-arrow_right; 
+	}
+}
+.btn--txt {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	
+	margin-left: -1.2em; //offsets the padding
+	a {position: relative;z-index: 1;}
+	svg {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%; height: 100%;
+		overflow: visible;
+	}
+	rect {
+		transition: stroke-dashoffset .2s $transition;
+		stroke-width: 2;
+		stroke: cl('green');
+	}
+	@include hover {
+		rect {
+			transition-duration: .2s;
+			stroke-dashoffset: 0;
+		}
+	}
+}
+
+
+
+////////////////////////////////////////
+//
+// SHARE BUTTONS
+//
+////////////////////////////////////////
+
+.btn--social {
+	// @extend %basicbtn;
+	// @extend %basicanim;
+	// vertical-align: middle;
+	color: #fff;
+	padding: .3em;
+	font-size: 1.4em;
+	border-radius: 100%;
+	display: inline-block;
+	line-height: 1;
+	&.i-facebook { background-color: #3b5998; }
+	&.i-twitter { background-color: #00aced; }
+	&.i-linkedin { background-color: #007bb6; }
+	&:before {
+		// display: inline-block;
+		// font-size: 1.2em;
+		// margin-right: .5em;
+		// padding: .2em;
+		vertical-align: middle;
+	}
+	@include hover {
+		background-color: cl('red');
+		color: cl("white")
+	}
+}
+
+////////////////////////////////////////
+//
+// FILTER
+//
+////////////////////////////////////////
+//ANIMATION
+// .btn--stretch, .btn--reveal {
+// 	background-color: transparent;
+// 	position: relative;
+// 	-webkit-filter: url('#goo');
+// 	filter: url('/index.html#goo');
+// 	&:before,
+// 	&:after {
+// 		content: '';
+// 		background-color: cl('green');
+// 		display: block;
+// 		position: absolute;top: 0;bottom: 0;
+// 		z-index: -1;
+// 		width: 50%;
+// 		transition: width .5s $bounce;
+// 	}
+// 	&:before {left: 0;border-radius: 4em 0 0 4em;}
+// 	&:after {right: 0;border-radius: 0 4em 4em 0;}
+// }
+// .btn--reveal {
+// 	transition: background-color .5s $bounce;
+// 	&:before, &:after {
+// 		transition: width .5s $bounce, border-radius .5s $bounce;
+// 	}
+// 	@include hover {
+// 		background-color: cl('red');
+// 		&:before, &:after {	border-radius: 100%; }
+// 		&:before { width: 0; }
+// 		&:after { width: 0; }
+// 	}
+// }
+// .btn--stretch {
+// 	span,
+// 	&:before, &:after {
+// 		transition: all .8s $bounce;
+// 	}
+// 	@include hover {
+// 		// span { background-color: cl('red');}
+// 		&:before, &:after {
+// 			background-color: cl('red');
+// 			border-radius: 100%;
+// 			width: 63%;
+// 			//Make them a little bit smaller in height
+// 			top: 10%;bottom: 10%;
+// 		}
+// 		&:before { left: -10%;}
+// 		&:after { right: -10%; }
+// 	}	
+// }
+
+
+
