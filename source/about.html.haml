@@ -5,8 +5,6 @@ title: Our proposition
 	=partial 'banner' do
 		%h1 Our proposition
 
-	/ = partial 'split-view', locals: {:src => "/assets/images/georgy-kurian.png"} do
-	/ 	%h1=article.title
 
 .container
 	.content-container
@@ -18,10 +16,16 @@ title: Our proposition
 		%p If you have made the decision to reach new prospects outside your existing database, you need to ensure that those email addresses are accurate and who you’re targeting is in your target market.
 		%br	
 .bg-grey
-	=partial 'split-svgs-view', locals: { image: 'supericons/bg-red/map.svg' } do
-		%h2 Our proposition
+	=partial 'split-svgs-view', locals: { image: 'woman-market-analysis.svg' } do
 		%br
-		=link_to 'view a 15-min demo', '/demo', class: 'nav-item btn--ghost'
+			%h3 Get your first 200 contacts researched free. 
+			%p No credit card required.
+			%br
+			=link_to 'Start my research', '/contact', class: 'nav-item btn--ghost'
+			%br
+			%br
+			%br
+			%br
 
 .container
 	.content-container

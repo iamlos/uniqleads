@@ -1,51 +1,51 @@
 features:
-  - image: 'supericons/bg-black/screens.svg'
+  - image: 'male-strategic-management.svg'
     text:
       "##One platform for all of your needs
 
       Effectively reach your audience.
 
       We've got you covered!"
-  - image: 'supericons/bg-black/map.svg'
-    text:
-      "##In the right place at the right time
+#   - image: 'supericons/bg-black/map.svg'
+#     text:
+#       "##In the right place at the right time
 
-      Transform your user location into a relevant notification. Maximize your venue or store with iBeacons."
+#       Transform your user location into a relevant notification. Maximize your venue or store with iBeacons."
 
-  - image: 'supericons/statistics.svg'
-    text:
-      "##Marketing analytics for your business
+#   - image: 'supericons/statistics.svg'
+#     text:
+#       "##Marketing analytics for your business
 
-      Gather precious data to help you make better decisions. Data-driven solutions that increase your revenue."
+#       Gather precious data to help you make better decisions. Data-driven solutions that increase your revenue."
 
-  - image: 'supericons/bg-black/card-and-ticket.svg'
-    text:
-      "##Digital cards that live beyond your app
+#   - image: 'supericons/bg-black/card-and-ticket.svg'
+#     text:
+#       "##Digital cards that live beyond your app
 
-      Easily run loyalty and reward programs, create tickets or boarding passes across multiple channels."
+#       Easily run loyalty and reward programs, create tickets or boarding passes across multiple channels."
 
-  - image: 'supericons/bg-black/mobile-with-box.svg'
-    text:
-      "##Monetize with in-app products
+#   - image: 'supericons/bg-black/mobile-with-box.svg'
+#     text:
+#       "##Monetize with in-app products
 
-       Tap into millions of users in AppStore&reg; and Google Play&reg;."
-  - image: 'supericons/bg-black/sdk.svg'
-    text:
-      "##Database Cleanse.
+#        Tap into millions of users in AppStore&reg; and Google Play&reg;."
+#   - image: 'supericons/bg-black/sdk.svg'
+#     text:
+#       "##Database Cleanse.
 
-      Our Data Cleanse will have you targeting better faster. Do more things and do it faster. "
-  - image: 'supericons/bg-black/cogs.svg'
-    text:
-      "##Empower your business
+#       Our Data Cleanse will have you targeting better faster. Do more things and do it faster. "
+#   - image: 'supericons/bg-black/cogs.svg'
+#     text:
+#       "##Empower your business
 
-      Automate how you send notifications, categorize your audience or gather insights. React to your app or website events in real time."
+#       Automate how you send notifications, categorize your audience or gather insights. React to your app or website events in real time."
 
 
-dashboard:
-  - image: 'screen_2.jpg'
-    text: 'Your dashboard gives you an overview of all your transactions.'
-  - image: 'screen_1.png'
-    text: 'It is super easy.'
+# dashboard:
+#   - image: 'screen_2.jpg'
+#     text: 'Your dashboard gives you an overview of all your transactions.'
+#   - image: 'screen_1.png'
+#     text: 'It is super easy.'
 
 # blog:
 #   - image: 'screen_1.png'

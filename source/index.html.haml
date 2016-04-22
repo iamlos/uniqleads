@@ -4,50 +4,110 @@ title: Master your marketing
 
 %section.hero
 	.content-container
-		%h1 Get your first 200 Contacts Researched Free
+		%h1 Deep Sector Knowledge Specialist
+		%h3 Get Your First 200 Contacts Researched FREE.
 		%p We do all the work, you reap the benefits. It’s very simple.
 
 
-		=partial 'signup-form', locals: {button_text: 'Start my free trial'}
-
+		=partial 'signup-form', locals: {button_text: 'Start my research'}
+		%br
+		%br
 =partial 'slider', locals: {slides: data.slider.features} do
-	=link_to 'learn more about our products', '/products', class: 'btn'
+	=link_to 'learn more about our Services', '/services/', class: 'btn--ghost'
 
 .bg-green
-	=partial 'testimonial', locals: {button: '#', source: 'John Doe, site owner at Sample Company', quote: 'We were already doing some things in  marketing, but we were looking for an organization with a more far-reaching vision of where  marketing is headed in the future. It turned out there is only one candidate that fits the description and that is UniqLeads.', image: 'marketingsuccess.svg'}
+	.container.content-vspace
 
-=partial 'clients'
+		%h3 Each email marketing list is unique which is why you need a specialist outsourced partner Transparency
+		%br
+		/ .row
+		/ 	.sm-3
+		/ 		%h3 Bridge the gap between your  audience and your website visitors
+		/ 		.placeholder
+		/ 			=image_tag "deep-sector.svg"
+		/ 	.sm-3
+		/ 		.placeholder
+		/ 			=image_tag "supericons/bg-white/analytics.svg"
+		/ 		%h3 Transform your customer's location into valuable information
+		/ 	.sm-3
+		/ 		.placeholder
+		/ 			=image_tag "supericons/offer.svg"
+		/ 		%h3 Run loyalty and rewards programs that maximize your revenue
+.bg-grey
+	.container.content-vspace.center-text.solutions
+		%h2 Every superhero needs a sidekick
+		Use valuable insights to create omni-channel campaign strategies.
+		%br We help you focus on the customers you want, provide clean data, sales automation, and communicative solutions.
+		.row
+			.md-4
+				.placeholder
+					=image_tag "deep-sector.svg"
+				%h3 Accurate turn around times
+			.md-4
+				.placeholder
+					=image_tag "suitcase.svg"
+				%h3 Data accuracy ­ we only research who you tell us too
+			.md-4
+				.placeholder
+					=image_tag "analytics-yllw.svg"
+				%h3 Make data-driven decisions based on on your most important KPIs
+		.row
+			.md-4
+				.placeholder
+					=image_tag "supericons/agent-menu.svg"
+				%h3 Private and confidential ­we don’t mix clients’ databases or share information between clients
+			.md-4
+				.placeholder
+					=image_tag "supericons/callcenter-agent.svg"
+				%h3 Transform your data into valuable information
+			.md-4
+				.placeholder
+					=image_tag "supericons/hourglass.svg"
+				%h3 We help eliminate your team's time spent cold calling to build leads.
+
+		%br
+			=link_to 'learn more about our services', '/services', class: 'btn'
+
+.bg-grey
+	=partial 'testimonial', locals: {button: '#', source: 'John Doe, site owner at Sample Company', quote: 'We were already doing some things in  marketing, but we were looking for an organization with a more far-reaching vision of where  marketing is headed in the future. It turned out there is only one candidate that fits the description and that is UniqLeads.', image: 'deep-sector.svg'}
+	%br
+	%br
+
+/ =partial 'clients'
 
 %section
 	.container
-		.row
-			.sm-3
-				.placeholder
-				=link_to '/features/targeted-contact' do
-					=image_tag "tab-4.png"
-				%h4 Targeted Contact & Company Research for Niche Markets
-			.sm-3
-				.placeholder
-				=link_to '/features/database-cleanse' do
-					=image_tag "tab-2.png"
-				%h4 Database Cleanse
-			.sm-3
-				.placeholder
-				=link_to '/features/sales-leadgen' do
-					=image_tag "tab-3.png"
-				%h4 Sales & Lead Generation
-				%h4 Sales & Marketing alignment
-			.sm-3
-				.placeholder
-				=link_to '/features/webchat' do
-					=image_tag "tab-1.png"
-				%h4 Web Chat
-
-
-
-%section
-	.content-block.center-text
-		%h2 Get started right now!
-		Start delivering the right message at the right time.
+		.row.center-text
 		%br
-		=partial 'signup-form', locals: {button_text: 'Start my free trial'}
+		%h1 Industries we serve
+		%br
+			.sm-3
+				.placeholder
+				=link_to '/industries/commercial-conference' do
+					=image_tag "tab-4.png"
+				%h4 Commercial Conference Company
+			.sm-3
+				.placeholder
+				=link_to '/industries/outsourcing' do
+					=image_tag "tab-2.png"
+				%h4 Outsourcing for Small & Medium Enterprises
+			.sm-3
+				.placeholder
+				=link_to '/industries/it-vendors' do
+					=image_tag "tab-3.png"
+				%h4 IT Vendors
+			.sm-3
+				.placeholder
+				=link_to '/industries/recruitment' do
+					=image_tag "tab-1.png"
+				%h4 Recruitment
+				%br
+
+
+.bg-green
+	%section
+		.content-block.center-text
+			%h2 Get your first 200 contacts researched free!
+			No credit card required.
+			%br
+			=partial 'signup-form', locals: {button_text: 'Start my research'}

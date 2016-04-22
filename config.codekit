@@ -3259,14 +3259,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features.html.haml": {
+	"\/source\/industries.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features.html.html",
+		"outputAbbreviatedPath": "\/source\/industries.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -3275,14 +3275,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features\/analytics.html.haml": {
+	"\/source\/industries\/analytics.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features\/analytics.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries\/analytics.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features\/analytics.html.html",
+		"outputAbbreviatedPath": "\/source\/industries\/analytics.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -3291,14 +3291,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features\/contextual-messaging.html.haml": {
+	"\/source\/industries\/contextual-messaging.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features\/contextual-messaging.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries\/contextual-messaging.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features\/contextual-messaging.html.html",
+		"outputAbbreviatedPath": "\/source\/industries\/contextual-messaging.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -3307,14 +3307,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features\/in-app-products.html.haml": {
+	"\/source\/industries\/in-app-products.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features\/in-app-products.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries\/in-app-products.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features\/in-app-products.html.html",
+		"outputAbbreviatedPath": "\/source\/industries\/in-app-products.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -3323,14 +3323,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features\/loyalty.html.haml": {
+	"\/source\/industries\/loyalty.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features\/loyalty.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries\/loyalty.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features\/loyalty.html.html",
+		"outputAbbreviatedPath": "\/source\/industries\/loyalty.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -3339,14 +3339,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features\/platform.html.haml": {
+	"\/source\/industries\/platform.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features\/platform.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries\/platform.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features\/platform.html.html",
+		"outputAbbreviatedPath": "\/source\/industries\/platform.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -3355,14 +3355,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features\/sdks.html.haml": {
+	"\/source\/industries\/sdks.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features\/sdks.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries\/sdks.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features\/sdks.html.html",
+		"outputAbbreviatedPath": "\/source\/industries\/sdks.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -3371,14 +3371,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/features\/unified-push-messaging.html.haml": {
+	"\/source\/industries\/unified-push-messaging.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/features\/unified-push-messaging.html.haml",
+		"inputAbbreviatedPath": "\/source\/industries\/unified-push-messaging.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/features\/unified-push-messaging.html.html",
+		"outputAbbreviatedPath": "\/source\/industries\/unified-push-messaging.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4091,14 +4091,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/products\/automation.html.haml": {
+	"\/source\/services\/automation.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/products\/automation.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/automation.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/products\/automation.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/automation.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4107,14 +4107,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/products\/index.html.haml": {
+	"\/source\/services\/index.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/products\/index.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/index.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/products\/index.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/index.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4123,14 +4123,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/products\/live-api.html.haml": {
+	"\/source\/services\/live-api.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/products\/live-api.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/live-api.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/products\/live-api.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/live-api.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4139,14 +4139,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/products\/loyalty-app.html.haml": {
+	"\/source\/services\/loyalty-app.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/products\/loyalty-app.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/loyalty-app.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/products\/loyalty-app.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/loyalty-app.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4155,14 +4155,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/products\/loyalty.html.haml": {
+	"\/source\/services\/loyalty.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/products\/loyalty.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/loyalty.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/products\/loyalty.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/loyalty.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4171,14 +4171,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/products\/mobile-marketing-platform.html.haml": {
+	"\/source\/services\/mobile-marketing-platform.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/products\/mobile-marketing-platform.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/mobile-marketing-platform.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/products\/mobile-marketing-platform.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/mobile-marketing-platform.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4187,14 +4187,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/products\/monetize.html.haml": {
+	"\/source\/services\/monetize.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/products\/monetize.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/monetize.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/products\/monetize.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/monetize.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

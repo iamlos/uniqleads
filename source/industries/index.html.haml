@@ -1,0 +1,29 @@
+---
+title: Industries
+---
+.bg-green
+	.content-block
+		%h1 Industries
+
+.container
+	.content-block
+		=partial 'feature', locals: { icon: 'rss-feed-menu'} do
+			%h1 Commercial Conference Companies
+			%p We have worked with a few commercial conference companies to understand that each conference has a unique proposition and target market.
+			=link_to 'learn more', '/industries/commercial-conference', class: 'btn--ghost'
+
+		=partial 'feature', locals: { icon: 'card-and-ticket'} do
+			%h1 Outsourcing for Small & Medium Enterprises
+			%p Whether you run horizontal or vertical cloud services in your business, if you still need a ‘human touch’ at the end of the day and that work is routine, talk to us about how we can assist.
+			=link_to 'learn more', '/industries/', class: 'btn--ghost'
+
+		=partial 'feature', locals: { icon: 'map'} do
+			%h1 IT Vendors
+			%p We are a Technology focused multi­channel demand generation & marketing company.
+			=link_to 'learn more', '/industries/it-vendors', class: 'btn--ghost'
+
+		=partial 'feature', locals: { icon: 'rss-feed-menu'} do
+			%h1 Recruitment
+			%p We scout targeted contacts for top global recruitment firms and human capital consulting providers that operates on the principle of providing true partnership to their clients.
+			=link_to 'learn more', '/industries/recruitment', class: 'btn--ghost'
+

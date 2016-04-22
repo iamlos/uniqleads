@@ -67,7 +67,7 @@ activate :directory_indexes
 #activate :asset_hash
 
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket                     = ' ' # The name of the S3 bucket you are targetting. This is globally unique.
+  s3_sync.bucket                     = 'www.uniqleads.com' # The name of the S3 bucket you are targetting. This is globally unique.
   s3_sync.region                     = 'us-east-1'     # The AWS region for your bucket.
   s3_sync.delete                     = true # We delete stray files by default.
   s3_sync.after_build                = false # We do not chain after the build step by default.
@@ -107,8 +107,8 @@ configure :build do
   }
   config[:uniqleads] = {
      environment: 'production',
-     # dashboardAPI: 'https://dashboard.notifica.re/api',
-     websiteURL: 'http://notifica.re'
+     # dashboardAPI: '',
+     websiteURL: 'http://uniqleads.com'
   }
   activate :favicon_maker, :icons => {
     "_favicon_template.png" => [
@@ -134,7 +134,7 @@ configure :build do
       { icon: "mstile-310x310.png", size: "310x310" },
       { icon: "mstile-310x150.png", size: "310x150" }
     ]
-  }  
+  }
   # Minify CSS on build
   activate :minify_css
 

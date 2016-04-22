@@ -1,0 +1,35 @@
+---
+title: Recruitment | Industries
+og_title: Recruitment
+description: Bring your traditional coupons, loyalty and reward programs into your customer’s digital wallets.
+---
+
+%section.bg-grey
+  =partial 'banner',
+    locals: { image: 'businessman.svg',
+    title: 'We Recruit the Best',
+    intro: 'Tap into the best talent in your industry.'}
+
+.bg-green
+  =partial 'split-svgs-view', locals: { image: 'supericons/devices.svg' } do
+    %h2 Need Talent?
+    %p We scout targeted contacts for top global recruitment firms and human capital consulting providers that operates on the principle of providing true partnership to their clients. We want to create scalable recruitment process to maximise clients' talent acquisition processes.
+
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-red/analytics_red.svg' } do
+    %h2 Find out who is the best
+    %p It’s essential, to provide leads/target contacts that end up in placements for Executive Search Firms. We deliver competitive advantage through business transformation by giving clients/recruitment firms access to the skills, knowledge and support they need to compete in an increasingly competitive business environment.
+
+.bg-grey
+  =partial 'split-svgs-view', locals: {  image: 'supericons/bg-green/microphone.svg' } do
+    %h2 Work with a world class organisation
+    %p We work in partnership to drive cost savings, introduce operational efficiencies and transform the way they operate. We provide a flexible and cost effective solution to the need to take on more business, improve profitability or deliver more to the bottom line without increasing expenditure.
+
+
+%section.bg-green
+  .content-block.center-text
+    %h2 So get started right now!
+    Tap into a new world of recruitment.
+    %br Get your first 200 contacts researched free. No credit card needed.
+    =link_to 'Start my research', '/contact', class: 'nav-item btn'

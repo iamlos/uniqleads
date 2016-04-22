@@ -1,0 +1,45 @@
+---
+title: IT Vendors | Industries
+og_title: IT Vendors
+description: 
+---
+
+%section.bg-green
+  =partial 'banner',
+    locals: { image: 'supericons/bg-green/card-and-ticket.svg',
+    title: 'IT Vendors',
+    intro: ''}
+
+.bg-grey
+  =partial 'split-svgs-view', locals: { image: 'supericons/bg-red/card-and-ticket.svg' } do
+    %h2 We Bring Value
+    %p We provide value­ creating services in the areas of customer acquisition, customer management, other business process & technology related services. We drive a data backed focus on customer needs with technological innovation and certified operational excellence to deliver customized solutions to companies around the world. These solutions are driven through strong analytic and very well trained resources to ensure rewarding experience for customers and prospects. The end result is lower cost and higher efficiency.
+
+.bg-red
+  =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-white/wallet.svg' } do
+    %h2 Delivery
+    %p Our time­tested methodologies separates us from other companies that run your customer management with a mechanical mindset. Uniqleads senior management is driven by a single objective – value creation. With its India­ based delivery location we deliver top class customer management services with an unwavering commitment to the innovation in what we do.
+
+
+
+/ .bg-black
+/   .content-block.center-text
+/     %h2 Ready to try UniqLeads?
+/     Partner with UniqLeads today.
+/     %br
+/     =link_to 'Contact Us', '/contact', class: 'nav-item btn'
+
+
+/ .bg-red
+/   =partial 'split-svgs-view', locals: { className: 'split-view--reverse', image: 'supericons/bg-white/ticket.svg' } do
+/     %h2 Easily manage your venue’s ticketing
+/     %p Manage your venue’s tickets through the channels you are already using. Control access to your venue using our scan & redeem capabilities. We made sure that it is suitable for any kind of event. Whether you are hosting a private gathering or filling up football stadiums, this solution adapts to your needs.
+
+
+
+%section
+  .content-block.center-text
+    %h2 So get started right now!
+    Tap into a new world of IT Vendors.
+    %br Get your first 200 contacts researched free. No credit card needed.
+    =link_to 'Start my research', '/contact', class: 'nav-item btn--ghost'
