@@ -1,0 +1,21 @@
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/hitimes-1.2.3/ext/hitimes/c
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160424-66030-14p9vi3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/hitimes-1.2.3/ext/hitimes/c
+make "DESTDIR=" clean
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/hitimes-1.2.3/ext/hitimes/c
+make "DESTDIR="
+compiling hitimes.c
+compiling hitimes_instant_clock_gettime.c
+compiling hitimes_instant_osx.c
+compiling hitimes_instant_windows.c
+compiling hitimes_interval.c
+compiling hitimes_stats.c
+linking shared-object hitimes/2.0/hitimes.bundle
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/hitimes-1.2.3/ext/hitimes/c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hitimes.bundle ./.gem.20160424-66030-10qhhn6/hitimes/2.0
+installing default hitimes libraries

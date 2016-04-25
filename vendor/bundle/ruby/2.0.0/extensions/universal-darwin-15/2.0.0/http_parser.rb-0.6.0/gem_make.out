@@ -1,0 +1,17 @@
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160424-14297-90aue1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20160424-14297-5ezx4f
+installing default ruby_http_parser libraries

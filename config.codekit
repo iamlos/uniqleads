@@ -501,13 +501,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/source\/assets\/images\/blog\/choosing-mobile-marketing.jpg": {
+	"\/source\/assets\/images\/blog\/choosing-marketing.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 329257,
-		"inputAbbreviatedPath": "\/source\/assets\/images\/blog\/choosing-mobile-marketing.jpg",
-		"outputAbbreviatedPath": "\/source\/assets\/images\/blog\/choosing-mobile-marketing.jpg",
+		"inputAbbreviatedPath": "\/source\/assets\/images\/blog\/choosing-marketing.jpg",
+		"outputAbbreviatedPath": "\/source\/assets\/images\/blog\/choosing-marketing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3515,14 +3515,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/mobile-marketing.haml": {
+	"\/source\/marketing.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/mobile-marketing.haml",
+		"inputAbbreviatedPath": "\/source\/marketing.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/mobile-marketing.html",
+		"outputAbbreviatedPath": "\/source\/marketing.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4171,14 +4171,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/services\/mobile-marketing-platform.html.haml": {
+	"\/source\/services\/marketing-platform.html.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/services\/mobile-marketing-platform.html.haml",
+		"inputAbbreviatedPath": "\/source\/services\/marketing-platform.html.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/services\/mobile-marketing-platform.html.html",
+		"outputAbbreviatedPath": "\/source\/services\/marketing-platform.html.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4422,14 +4422,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/webinars\/mobile-marketing-voor-retail\/index.haml": {
+	"\/source\/webinars\/marketing-voor-retail\/index.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/webinars\/mobile-marketing-voor-retail\/index.haml",
+		"inputAbbreviatedPath": "\/source\/webinars\/marketing-voor-retail\/index.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/webinars\/mobile-marketing-voor-retail\/index.html",
+		"outputAbbreviatedPath": "\/source\/webinars\/marketing-voor-retail\/index.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -4438,14 +4438,14 @@
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
 		},
-	"\/source\/webinars\/mobile-marketing-voor-retail\/thank-you.haml": {
+	"\/source\/webinars\/marketing-voor-retail\/thank-you.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/webinars\/mobile-marketing-voor-retail\/thank-you.haml",
+		"inputAbbreviatedPath": "\/source\/webinars\/marketing-voor-retail\/thank-you.haml",
 		"noEscapeInAttributes": 0,
-		"outputAbbreviatedPath": "\/source\/webinars\/mobile-marketing-voor-retail\/thank-you.html",
+		"outputAbbreviatedPath": "\/source\/webinars\/marketing-voor-retail\/thank-you.html",
 		"outputFormat": 2,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

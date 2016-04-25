@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'fontcustom/cli'
+
+Fontcustom::CLI.start(ARGV)

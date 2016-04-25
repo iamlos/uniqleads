@@ -1,0 +1,21 @@
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160424-14297-1wnxdc1.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/extensions/universal-darwin-15/2.0.0/unf_ext-0.0.7.1/mkmf.log
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/Alpha/Documents/Sites/uniqleads-d1/vendor/bundle/ruby/2.0.0/gems/unf_ext-0.0.7.1/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20160424-14297-1n9rb0k
+installing default unf_ext libraries
