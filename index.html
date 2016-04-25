@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Uniqleads.com by iamlos</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Uniqleads.com</h1>
+        <h2>Middleman Static website</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/iamlos/uniqleads/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/iamlos/uniqleads/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/iamlos/uniqleads" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="welcome-to-the-uniqleadscom-wiki" class="anchor" href="#welcome-to-the-uniqleadscom-wiki" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to the <a href="www.uniqleads.com">uniqleads.com</a> wiki!</h1>
+
+<hr>
+
+<h3>
+<a id="middleman-app-hosted-on-aws-s3-bucket" class="anchor" href="#middleman-app-hosted-on-aws-s3-bucket" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://middlemanapp.com/">Middleman App</a>, hosted on AWS S3-bucket.</h3>
+
+<hr>
+
+<h3>
+<a id="-site-map" class="anchor" href="#-site-map" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>## Site Map</h3>
+
+<ul>
+<li><strong>Source</strong></li>
+<li>* <strong>assets</strong>
+</li>
+<li>* * fonts</li>
+<li>* * images</li>
+<li>* * javascripts</li>
+<li>* * stylesheets</li>
+<li>* * videos</li>
+<li>* <strong>careers</strong>
+</li>
+<li>* * admin-support.haml</li>
+<li>* * list-researcher.haml</li>
+<li>* * name-collect.haml</li>
+<li>* * sales.haml</li>
+<li>* * thank-you.haml<br>
+</li>
+<li>* <strong>forms</strong><br>
+</li>
+<li>* <strong>industries</strong>
+</li>
+<li>* * commercial-conference.html.haml</li>
+<li>* * index.html.haml</li>
+<li>* * it-vendors.html.haml</li>
+<li>* * outsourcing.html.haml</li>
+<li>* * recruitment.html.haml</li>
+<li>* <strong>layouts</strong>
+</li>
+<li>* * blog.html.haml</li>
+<li>* * landing-pages.haml</li>
+<li>* * layout.html.haml</li>
+<li>* * tour.html.haml</li>
+<li>* * trial.html.haml<br>
+</li>
+<li>* <strong>partials</strong><br>
+</li>
+<li>* <strong>services</strong><br>
+</li>
+<li>* * automation.html.haml</li>
+<li>* * database-cleanse.html.haml</li>
+<li>* * index.html.haml</li>
+<li>* * sales-leadgen.html.haml</li>
+<li>* * targeted-contact.html.haml</li>
+<li>* * webchat.html.haml </li>
+<li><strong>404.html.haml</strong></li>
+<li><strong>about.html.haml</strong></li>
+<li><strong>careers.haml</strong></li>
+<li><strong>contact.html.haml</strong></li>
+<li><strong>cookies.html.haml</strong></li>
+<li><strong>documentation.haml</strong></li>
+<li><strong>features.html.haml</strong></li>
+<li><strong>index.html.haml</strong></li>
+<li><strong>privacy.html.haml</strong></li>
+<li><strong>resources.haml</strong></li>
+<li><strong>services.html.haml</strong></li>
+<li><strong>signup.html.haml</strong></li>
+<li><strong>solutions.html.haml</strong></li>
+<li><strong>terms.html.haml</strong></li>
+</ul>
+
+<hr>
+
+<h1>
+<a id="uniqleadscom-middleman-static-website" class="anchor" href="#uniqleadscom-middleman-static-website" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>UniqLeads.com Middleman Static Website</h1>
+
+<h2>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites</h2>
+
+<p>brew install imagemagick</p>
+
+<h2>
+<a id="to-run-locally" class="anchor" href="#to-run-locally" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To run locally</h2>
+
+<p>gem install bundler</p>
+
+<p>git clone <a href="mailto:git@github.com">git@github.com</a>:iamlos/uniqleads.git</p>
+
+<p>cd </p>
+
+<p>bundle install</p>
+
+<p>middleman server</p>
+
+<h2>
+<a id="build-a-production-build" class="anchor" href="#build-a-production-build" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build a production build</h2>
+
+<p>middleman build</p>
+
+<h2>
+<a id="deploy" class="anchor" href="#deploy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploy</h2>
+
+<p>AWS_ACCESS_KEY_ID=xxxxxxx AWS_SECRET_ACCESS_KEY=yyyyyy middleman s3_sync</p>
+
+<h2>
+<a id="aws-keys" class="anchor" href="#aws-keys" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AWS keys</h2>
+
+<p>Get your AWS keys from the AWS console:</p>
+
+<p><a href="https://signin.aws.amazon.com/console">https://signin.aws.amazon.com/console</a></p>
+
+<p>Go to IAM (Identity and Access Management) &gt; Users &gt; you &gt; Manage Access Keys</p>
+
+<p>There, you can create or rotate your access keys.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
