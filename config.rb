@@ -67,15 +67,7 @@ activate :directory_indexes
 #activate :asset_hash
 
 activate :s3_sync do |s3_sync|
-<<<<<<< HEAD
-<<<<<<< HEAD
   s3_sync.bucket                     = 'www.uniqleads.com' # The name of the S3 bucket you are targetting. This is globally unique.
-=======
-  s3_sync.bucket                     = 'ul-gesa' # The name of the S3 bucket you are targetting. This is globally unique.
->>>>>>> c3042ee4f4f6ead7b2feb3395cee4cb9341b7b7f
-=======
-  s3_sync.bucket                     = 'ul-gesa' # The name of the S3 bucket you are targetting. This is globally unique.
->>>>>>> c3042ee4f4f6ead7b2feb3395cee4cb9341b7b7f
   s3_sync.region                     = 'us-east-1'     # The AWS region for your bucket.
   s3_sync.delete                     = true # We delete stray files by default.
   s3_sync.after_build                = false # We do not chain after the build step by default.
@@ -115,15 +107,9 @@ configure :build do
   }
   config[:uniqleads] = {
      environment: 'production',
-<<<<<<< HEAD
-<<<<<<< HEAD
      # dashboardAPI: '',
-=======
      # dashboardAPI: 'https://',
->>>>>>> c3042ee4f4f6ead7b2feb3395cee4cb9341b7b7f
-=======
      # dashboardAPI: 'https://',
->>>>>>> c3042ee4f4f6ead7b2feb3395cee4cb9341b7b7f
      websiteURL: 'http://uniqleads.com'
   }
   activate :favicon_maker, :icons => {
