@@ -1,0 +1,31 @@
+source 'https://rubygems.org'
+#Middleman Gems, specified weirdly because it doesn't understand ~> 4.0
+# gem 'middleman-core', 	'4.0.0.beta.2'
+# gem 'middleman-cli', 	'4.0.0.beta.2'
+# gem 'middleman-sprockets', '4.0.0.beta.1'
+gem 'middleman'
+#middleman plugins
+#pointed to github because rubygems version was behind
+gem 'middleman-livereload', github: 'middleman/middleman-livereload'
+gem 'middleman-autoprefixer'
+gem 'middleman-favicon-maker'
+gem 'middleman-blog'
+#changed gemspec to allow middleman 4, also some extra options to allow for autowidth: true
+gem 'middleman-fontcustom'
+gem 'formalist'
+
+# For feed.xml.builder
+gem "builder", "~> 3.0"
+#to truncate intro
+gem 'nokogiri'
+
+#front end gems
+gem 'haml'
+gem 'sass'
+
+#support for capistano
+gem 'capistrano', '~> 3.1'
+gem 'capistrano-bundler', '~> 1.1.2'
+
+#deployment to S3
+gem 'middleman-s3_sync'
