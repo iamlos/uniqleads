@@ -1,4 +1,8 @@
 # UniqLeads.com Middleman Static Website
+GitHub issues:		https://img.shields.io/github/issues/iamlos/uniqleads.svg
+GitHub forks:		https://img.shields.io/github/forks/iamlos/uniqleads.svg
+GitHub stars:		https://img.shields.io/github/stars/iamlos/uniqleads.svg
+Twitter:		https://img.shields.io/twitter/url/https/github.com/iamlos/uniqleads.svg?style=social
 
 ## Prerequisites
 
