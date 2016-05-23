@@ -1,5 +1,5 @@
 # UniqLeads.com Middleman Static Website
-
+[![Build Status](https://travis-ci.org/iamlos/uniqleads.svg?branch=master)](https://travis-ci.org/iamlos/uniqleads)
 ## Prerequisites
 
 brew install imagemagick
