@@ -1,6 +1,6 @@
 /**
  * @fileOverview Class to display, parse, validate and submit signup form
- * @author Joris Verbogt <joris@notifica.re>
+ * @author Carlos Cash
  */
 
 if (typeof jQuery === "undefined") { throw new Error("SignupForm requires jQuery") }

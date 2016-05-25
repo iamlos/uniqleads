@@ -26,9 +26,14 @@
 	}
 	a:first-child,
 	a:first-child + a {
-		color: cl('black');
+		color: cl('');
 	}
-
+	a:hover {
+		color: cl('green');
+	}
+	a:visited {
+		color: cl('grey');
+	}
 	+ * {
 		margin-top: 3em;
 	}
@@ -77,7 +82,7 @@
 	// a + a { margin-left: 1em;}
 }
 
-//JAVASCRIPT TOGGLE MENU
+JAVASCRIPT TOGGLE MENU
 .is-hidden {
 	button {
 		padding: 1em 1.5em;
@@ -88,7 +93,7 @@
 		position: absolute;
 		right: .5em;
 		top: 2.5em;
-		transform: translateY(-50%);
+		transform: translateY(-30%);
 		margin: 0;
 	}
 	.nav-main__container {
@@ -112,7 +117,7 @@
 			display: block;
 			margin: 0;
 			margin-bottom: 1em;
-			
+
 			opacity: 1;
 			transform: translateY(0);
 		}

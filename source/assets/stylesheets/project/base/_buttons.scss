@@ -26,7 +26,7 @@
 	// 	border-radius: r
 	// }
 	@include hover {
-		outline: none;
+		// outline: cl('green');
 		color: cl('white');
 		background-color: cl('green_dark');
 		// &:before {
@@ -46,6 +46,14 @@ button,
 	@extend %basicanim;
 	color: cl('white');
 	background-color: cl('green');
+		@include hover {
+		// background-color: transparent;
+		// border-color: cl('green_dark');
+	}
+	
+	border: 1px solid cl('green');
+	// background-color: ;
+
 }
 .btn--ghost {
 	@extend %basicbtn;
@@ -58,7 +66,7 @@ button,
 		// border-color: cl('green_dark');
 	}
 	.bg-black & {
-		border-color: cl('grey_dark');
+		border-color: cl('green');
 		color: cl('white');
 	}
 }
@@ -102,6 +110,7 @@ a.btn--txt, .btn--txt a {
 	color: cl('green'); 
 	&:after { 
 		@extend %i-arrow_right; 
+
 	}
 }
 .btn--txt {

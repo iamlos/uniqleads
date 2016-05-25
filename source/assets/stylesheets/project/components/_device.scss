@@ -1,25 +1,25 @@
-// .device {
-// 	max-width: 80em;
-// 	margin: 0 auto;
-// 	position: relative;
-// 	&:after {
-// 		transition: padding-top .5s ease;
-// 		content: '';
-// 		display: block;
-// 		padding-top: percentage(9/16);
-// 	}
-// 	&--phone {
-// 		&:after { padding-top: percentage(140/70); }
-// 		&.device--rotated:after {
-// 			padding-top: percentage(70/140); 
-// 		}
-// 	}
-// 	&--tablet {
-// 		&:after { padding-top: percentage(900/1600); }
-// 		&.device--rotated:after { padding-top: percentage(1600/900); }
-// 	}
-// 	svg {
-// 		position: absolute;
-// 		left: 0;	
-// 	}
-// }
+.device {
+	max-width: 80em;
+	margin: 0 auto;
+	position: relative;
+	&:after {
+		transition: padding-top .5s ease;
+		content: '';
+		display: block;
+		padding-top: percentage(9/16);
+	}
+	&--phone {
+		&:after { padding-top: percentage(140/70); }
+		&.device--rotated:after {
+			padding-top: percentage(70/140); 
+		}
+	}
+	&--tablet {
+		&:after { padding-top: percentage(900/1600); }
+		&.device--rotated:after { padding-top: percentage(1600/900); }
+	}
+	svg {
+		position: absolute;
+		left: 0;	
+	}
+}

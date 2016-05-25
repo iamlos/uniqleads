@@ -108,8 +108,6 @@ configure :build do
   config[:uniqleads] = {
      environment: 'production',
      # dashboardAPI: '',
-     # dashboardAPI: 'https://',
-     # dashboardAPI: 'https://',
      websiteURL: 'http://uniqleads.com'
   }
   activate :favicon_maker, :icons => {

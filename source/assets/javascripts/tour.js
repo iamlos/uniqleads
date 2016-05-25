@@ -1,7 +1,5 @@
 /**
  * @fileOverview Class to scroll the tour
- * @author Joel Oliveira <joel@notifica.re>
- * @author Joris Verbogt <joris@notifica.re>
  */
 
 if (typeof jQuery === "undefined") { throw new Error("Tour requires jQuery") }

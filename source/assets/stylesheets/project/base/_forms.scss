@@ -1,7 +1,7 @@
 form {
 	text-align: left;
 	background: #fff;
-	border: 1px solid cl('grey_light');	
+	border: 1px solid cl('grey_light');
 	padding: .5em 1em;
 	@include bp('sm+') {
 		padding: 1.5em 2em;
@@ -67,7 +67,7 @@ input, textarea {
 	color: cl('grey_light');
 	padding: .3em .5em;
 	border-radius: 3px;
-		
+
 	&:not(:empty),
 	&:valid,
 	&:focus {
@@ -91,14 +91,14 @@ input[type="range"] {
 	padding-right: 0;
 	// width: 100%;
 	// border: none;
-	
+
     -webkit-appearance: none;
     width: 100%;
     border-radius: 8px;
     height: 4px;
     border: none;
-    background-color: cl('green'); 	
-    
+    background-color: cl('green');
+
 }
 input[type='range']::-webkit-slider-thumb {
 	-webkit-appearance: none;
@@ -107,7 +107,7 @@ input[type='range']::-webkit-slider-thumb {
 	height: 16px;
 	border-radius: 100%;
 	cursor: pointer;
-	
+
 	@include bp('xs') {
 		width: 32px;
 		height: 32px;
@@ -160,6 +160,9 @@ input[type="radio"] {
 		input + button {
 			margin-left: 1em;
 		}
+	}
+	.selfservice-pricing & {
+		text-align: right;
 	}
 	.pricing & {
 		text-align: right;
@@ -214,7 +217,7 @@ input[type="radio"] {
 // .input--placeholder {
 //  position: relative;
 //  display: inline-block;
-	
+
 //  .placeholder {
 //    transition: all .2s ease;
 //    text-align: left;
@@ -250,7 +253,7 @@ input[type="radio"] {
 	position: relative;
 	// display: inline-block;
 	min-width: 3em;
-	
+
 	select {
 		cursor: pointer;
 		position: absolute;
