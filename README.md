@@ -1,5 +1,15 @@
-# UniqLeads.com Middleman Static Website
-[![Build Status](https://travis-ci.org/iamlos/uniqleads.svg?branch=master)](https://travis-ci.org/iamlos/uniqleads)
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [UniqLeads.com Middleman Static Website](#)
+	- [Prerequisites](#)
+	- [To run locally](#)
+	- [Build a development livereload local page](#)
+- [How to change the content](#)
+	- [Build a production build](#)
+	- [Deploy](#)
+	- [AWS keys](#)
+	- 
+# UniqLeads.com Middleman Static Website	
 ## Prerequisites
 
 brew install imagemagick
