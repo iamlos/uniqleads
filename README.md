@@ -1,12 +1,12 @@
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [UniqLeads.com Middleman Static Website](#)
-	- [Prerequisites](##)
+	- [Prerequisites](#Prerequisites)
 	- [To run locally](#)
 	- [Build a development livereload local page](#)
 - [How to change the content](#)
 	- [Build a production build](#)
-	- [Deploy](##)
+	- [Deploy](#deploy)
 	- [AWS keys](#)
 	
 
