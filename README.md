@@ -2,12 +2,12 @@
 
 - [UniqLeads.com Middleman Static Website](#)
 	- [Prerequisites](#Prerequisites)
-	- [To run locally](#)
-	- [Build a development livereload local page](#)
-- [How to change the content](#)
-	- [Build a production build](#)
+	- [To run locally](#to-run-locally)
+	- [Build a development livereload local page](#build-a-development-livereload-local-page)
+- [How to change the content](#how-to-change-content)
+	- [Build a production build](#build-a-production-build)
 	- [Deploy](#deploy)
-	- [AWS keys](#)
+	- [AWS keys](#aws-keys)
 	
 
 # UniqLeads.com Middleman Static Website	
