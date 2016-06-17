@@ -1,12 +1,12 @@
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [UniqLeads.com Middleman Static Website](#)
-	- [Prerequisites](#)
+	- [Prerequisites](##)
 	- [To run locally](#)
 	- [Build a development livereload local page](#)
 - [How to change the content](#)
 	- [Build a production build](#)
-	- [Deploy](#)
+	- [Deploy](##)
 	- [AWS keys](#)
 	
 
@@ -42,7 +42,10 @@ bundle exec middleman build
 
 ## Deploy
 
-AWS_ACCESS_KEY_ID=xxxxxxx AWS_SECRET_ACCESS_KEY=yyyyyy bundle exec middleman s3_sync
+bundle exec middleman s3_sync
+
+- Change environment variables in s3_sync directory
+- AWS_ACCESS_KEY_ID=xxxxxxx AWS_SECRET_ACCESS_KEY=yyyyyy 
 
 
 ## AWS keys
