@@ -1,6 +1,6 @@
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [UniqLeads.com Middleman Static Website](#)
+- [UniqLeads.com Middleman Static Website](http://iamlos.github.io/uniqleads)
 	- [Prerequisites](#Prerequisites)
 	- [To run locally](#to-run-locally)
 	- [Build a development livereload local page](#build-a-development-livereload-local-page)
@@ -10,7 +10,7 @@
 	- [AWS keys](#aws-keys)
 	
 
-# UniqLeads.com Middleman Static Website	
+# [UniqLeads.com Middleman Static Website](http://iamlos.github.io/uniqleads)	
 ## Prerequisites
 
 brew install imagemagick
