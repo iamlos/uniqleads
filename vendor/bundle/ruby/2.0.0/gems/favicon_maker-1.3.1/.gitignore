@@ -1,8 +1,0 @@
-*.gem
-.bundle
-Gemfile.lock
-pkg/*
-.rvmrc
-
-/spec/output*/
-.DS_Store
