@@ -1,3 +1,5 @@
+![png](https://github.com/iamlos/uniqleads/blob/master/images/screenshot.png)
+
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [UniqLeads.com Middleman Static Website](http://iamlos.github.io/uniqleads)
